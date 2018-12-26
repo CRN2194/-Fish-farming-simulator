@@ -1,0 +1,13 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for OceanProjectEditor
+    Running UnrealHeaderTool "C:\Users\Ulises\Desktop\OceanProject\OceanProject.uproject" "C:\Users\Ulises\Desktop\OceanProject\Intermediate\Build\Win64\OceanProjectEditor\Development\OceanProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for OceanProjectEditor in 12,2082514 seconds
+  Performing 4 actions (4 in parallel)
+  Module.ROSIntegration.gen.cpp
+  Module.ROSIntegration.cpp
+  [3/4] Link UE4Editor-ROSIntegration-5960.dll
+  [4/4] Link UE4Editor-ROSIntegration-5960.lib
+     Creando biblioteca C:\Users\Ulises\Desktop\OceanProject\Plugins\ROSIntegration\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ROSIntegration-5960.lib y objeto C:\Users\Ulises\Desktop\OceanProject\Plugins\ROSIntegration\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ROSIntegration-5960.exp
+     Creando biblioteca C:\Users\Ulises\Desktop\OceanProject\Plugins\ROSIntegration\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ROSIntegration-5960.suppressed.lib y objeto C:\Users\Ulises\Desktop\OceanProject\Plugins\ROSIntegration\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ROSIntegration-5960.suppressed.exp
+  Deploying OceanProjectEditor Win64 Development...
+  Total build time: 29,40 seconds (Local executor: 14,01 seconds)

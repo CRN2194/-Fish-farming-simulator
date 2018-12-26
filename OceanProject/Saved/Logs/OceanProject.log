@@ -1,0 +1,1284 @@
+﻿Log file open, 12/26/18 17:15:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: OceanProject
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1389024172) SRandInit(-1389024171).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 3.617189
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin OceanPlugin
+LogPluginManager: Mounting plugin ROSIntegration
+LogStreaming: Display: Took  6.906s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Cesar/Desktop/OceanProject/Binaries/Win64/UE4Editor-OceanProject.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestruction.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestructionEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Cesar/Desktop/OceanProject/Plugins/OceanPlugin/Binaries/Win64/UE4Editor-OceanPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Cesar/Desktop/OceanProject/Plugins/ROSIntegration/Binaries/Win64/UE4Editor-ROSIntegration.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-DQOE2DS (192.168.1.5:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.26-20.16.21:646][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.26-20.16.21:647][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.26-20.16.21:836][  0]LogInit: Computer: DESKTOP-DQOE2DS
+[2018.12.26-20.16.21:837][  0]LogInit: User: Cesar
+[2018.12.26-20.16.21:837][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.12.26-20.16.21:837][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2018.12.26-20.16.21:854][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx)
+[2018.12.26-20.16.21:854][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.26-20.16.21:854][  0]LogMemory: Process Physical Memory: 274.98 MB used, 274.98 MB peak
+[2018.12.26-20.16.21:855][  0]LogMemory: Process Virtual Memory: 263.70 MB used, 263.70 MB peak
+[2018.12.26-20.16.21:855][  0]LogMemory: Physical Memory: 3059.36 MB used,  3076.13 MB free, 6135.49 MB total
+[2018.12.26-20.16.21:855][  0]LogMemory: Virtual Memory: 4778.38 MB used,  3076.13 MB free, 134217728.00 MB total
+[2018.12.26-20.16.23:653][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.12.26-20.16.23:653][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.12.26-20.16.28:025][  0]LogStreaming: Display: Took  4.231s to EndInitTextLocalization.
+[2018.12.26-20.16.28:246][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.26-20.16.32:821][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.26-20.16.32:821][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.26-20.17.02:713][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.26-20.17.02:841][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2018.12.26-20.17.02:841][  0]LogD3D11RHI:       2007/0/3067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.26-20.17.02:847][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.26-20.17.02:847][  0]LogD3D11RHI:       0/0/3067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.26-20.17.02:847][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.26-20.17.02:882][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.26-20.17.02:882][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.26-20.17.02:882][  0]LogWindows: EnumDisplayDevices:
+[2018.12.26-20.17.02:883][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2018.12.26-20.17.02:883][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2018.12.26-20.17.02:883][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2018.12.26-20.17.02:884][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2018.12.26-20.17.02:884][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.26-20.17.02:884][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2018.12.26-20.17.02:884][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.26-20.17.02:884][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.26-20.17.02:884][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2018.12.26-20.17.03:164][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.12.26-20.17.03:164][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.12.26-20.17.03:164][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.26-20.17.03:789][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.26-20.17.04:371][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../Users/Cesar/Desktop/OceanProject/Intermediate/Shaders/WorkingDirectory/2640/).
+[2018.12.26-20.17.04:379][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cesar/AppData/Local/Temp/UnrealShaderWorkingDir/F78BC56840E87C05E799C9A68A64B9E4/'.
+[2018.12.26-20.17.11:949][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.26-20.17.11:976][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.26-20.17.12:007][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.26-20.17.12:121][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.26-20.17.12:508][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.26-20.17.12:609][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.26-20.17.12:670][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.26-20.17.12:740][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.26-20.17.12:767][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.26-20.17.12:834][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.12.26-20.17.12:936][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.12.26-20.17.13:041][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.12.26-20.17.13:075][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.12.26-20.17.13:202][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.12.26-20.17.13:652][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.12.26-20.17.13:877][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.12.26-20.17.13:877][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.12.26-20.17.13:936][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-20.17.14:012][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.26-20.17.14:471][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.26-20.17.14:513][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.26-20.17.14:579][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.26-20.17.14:623][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.26-20.17.14:682][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.26-20.17.14:762][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.26-20.17.14:763][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.26-20.17.17:426][  0]LogXGEController: Cleaning working directory: C:/Users/Cesar/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.26-20.17.17:427][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.26-20.17.17:448][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.26-20.17.17:448][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.26-20.17.40:926][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.26-20.17.43:333][  0]LogDerivedDataCache: Loaded boot cache 2.39s 73MB C:/Users/Cesar/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.12.26-20.17.43:334][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cesar/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.12.26-20.17.43:334][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Cesar/Desktop/OceanProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.26-20.17.43:334][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.26-20.17.43:334][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Cesar/Desktop/OceanProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.26-20.17.43:334][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.26-20.17.43:406][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.26-20.17.43:435][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cesar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.26-20.17.43:435][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.26-20.17.43:435][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.26-20.17.43:573][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.26-20.17.43:626][  0]LogSlate: Using Freetype 2.6.0
+[2018.12.26-20.17.44:158][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.26-20.17.44:158][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.26-20.17.57:343][  0]LogAssetRegistry: FAssetRegistry took 0.1965 seconds to start up
+[2018.12.26-20.18.26:022][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.26-20.18.40:374][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.26-20.18.40:775][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.26-20.18.40:784][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.26-20.18.40:784][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.26-20.18.40:784][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.12.26-20.18.40:784][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.12.26-20.18.41:949][  0]LogNetVersion: OceanProject , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2400954864)
+[2018.12.26-20.19.01:918][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.250422 seconds
+[2018.12.26-20.19.01:949][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.12.26-20.19.01:949][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.12.26-20.19.01:949][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.26-20.20.37:878][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.26-20.20.37:933][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.26-20.20.43:248][  0]SourceControl: Source control is disabled
+[2018.12.26-20.20.43:248][  0]SourceControl: Source control is disabled
+[2018.12.26-20.20.43:513][  0]SourceControl: Source control is disabled
+[2018.12.26-20.20.43:614][  0]SourceControl: Source control is disabled
+[2018.12.26-20.20.48:704][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.26-20.20.50:220][  0]LogOcInput: OculusInput pre-init called
+[2018.12.26-20.20.53:018][  0]LogEngine: Initializing Engine...
+[2018.12.26-20.20.53:101][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.26-20.20.53:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.26-20.20.53:145][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.26-20.20.59:327][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.26-20.21.00:072][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.26-20.21.00:126][  0]LogInit: FAudioDevice initialized.
+[2018.12.26-20.21.01:151][  0]LogDerivedDataCache: Saved boot cache 0.99s 73MB C:/Users/Cesar/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.12.26-20.21.01:240][  0]LogInit: Texture streaming: Enabled
+[2018.12.26-20.21.01:416][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.26-20.21.01:793][  0]LogInit: Transaction tracking system initialized
+[2018.12.26-20.21.03:429][  0]BlueprintLog: New page: Editor Load
+[2018.12.26-20.21.08:207][  0]LocalizationService: Localization service is disabled
+[2018.12.26-20.21.09:855][  0]LogConsoleResponse: Display: 
+[2018.12.26-20.21.19:458][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.26-20.21.19:459][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.26-20.21.19:459][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.26-20.21.19:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.26-20.21.19:459][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.26-20.21.20:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cesar/Desktop/OceanProject/Content/' took 0.08s
+[2018.12.26-20.21.27:521][  0]SourceControl: Source control is disabled
+[2018.12.26-20.21.27:565][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Cesar/Desktop/OceanProject/Content/Maps/UnderwaterFish.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.26-20.21.27:575][  0]LightingResults: New page: Lighting Build
+[2018.12.26-20.21.27:775][  0]MapCheck: New page: Map Check
+[2018.12.26-20.21.27:775][  0]LightingResults: New page: Lighting Build
+[2018.12.26-20.21.32:439][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f2a80ceb0, Size=48, Default__AnimRobot_BP_C Function /Game/Models/Robot/BP_Robot/AnimRobot_BP.AnimRobot_BP_C:ExecuteUbergraph_AnimRobot_BP
+[2018.12.26-20.21.32:655][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f2a80ceb0, Size=48
+[2018.12.26-20.21.32:655][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f43e50970, Size=48, Default__AnimRobot_BP_C Function /Engine/Transient.REINST_AnimRobot_BP_C_0:ExecuteUbergraph_AnimRobot_BP
+[2018.12.26-20.21.33:335][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f2b47d7e0, Size=48, Default__AnimRobot_BP_C Function /Game/Models/Robot/BP_Robot/AnimRobot_BP.AnimRobot_BP_C:ExecuteUbergraph_AnimRobot_BP
+[2018.12.26-20.21.33:836][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f2b858100, Size=1264, Default__RobotCharacter_BP_C Function /Game/Models/Robot/BP_Robot/RobotCharacter_BP.RobotCharacter_BP_C:ExecuteUbergraph_RobotCharacter_BP
+[2018.12.26-20.21.33:842][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f2b879b00, Size=248, Default__BP_Button_C Function /Game/Button/BP_Button.BP_Button_C:ExecuteUbergraph_BP_Button
+[2018.12.26-20.21.50:971][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f2b888310, Size=8, Default__BP_Ocean_C Function /Game/Ocean/BP_Ocean.BP_Ocean_C:ExecuteUbergraph_BP_Ocean
+[2018.12.26-20.21.51:287][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f2b879b00, Size=248
+[2018.12.26-20.21.51:287][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f50e09600, Size=248, Default__BP_Button_C Function /Engine/Transient.REINST_BP_Button_C_4:ExecuteUbergraph_BP_Button
+[2018.12.26-20.21.51:290][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f2b888310, Size=8
+[2018.12.26-20.21.51:290][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f50eb9680, Size=8, Default__BP_Ocean_C Function /Engine/Transient.REINST_BP_Ocean_C_5:ExecuteUbergraph_BP_Ocean
+[2018.12.26-20.21.51:295][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f2b858100, Size=1264
+[2018.12.26-20.21.51:295][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f51a7c100, Size=1264, Default__RobotCharacter_BP_C Function /Engine/Transient.REINST_RobotCharacter_BP_C_6:ExecuteUbergraph_RobotCharacter_BP
+[2018.12.26-20.21.51:653][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f5183c400, Size=248, Default__BP_Button_C Function /Game/Button/BP_Button.BP_Button_C:ExecuteUbergraph_BP_Button
+[2018.12.26-20.21.51:722][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f518c39d8, Size=8, Default__BP_Ocean_C Function /Game/Ocean/BP_Ocean.BP_Ocean_C:ExecuteUbergraph_BP_Ocean
+[2018.12.26-20.21.51:862][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f51702b00, Size=1264, Default__RobotCharacter_BP_C Function /Game/Models/Robot/BP_Robot/RobotCharacter_BP.RobotCharacter_BP_C:ExecuteUbergraph_RobotCharacter_BP
+[2018.12.26-20.21.55:051][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f50ea9480, Size=368, Default__BP_Skydome_C Function /Game/Sky/Old/BP_Skydome.BP_Skydome_C:ExecuteUbergraph_BP_Skydome
+[2018.12.26-20.21.55:149][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f50ea9480, Size=368
+[2018.12.26-20.21.55:149][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f511d6800, Size=368, Default__BP_Skydome_C Function /Engine/Transient.REINST_BP_Skydome_C_12:ExecuteUbergraph_BP_Skydome
+[2018.12.26-20.21.55:211][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f51076980, Size=368, Default__BP_Skydome_C Function /Game/Sky/Old/BP_Skydome.BP_Skydome_C:ExecuteUbergraph_BP_Skydome
+[2018.12.26-20.21.55:814][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f51623280, Size=168, Default__In_cage_C Function /Game/Button/In_cage.In_cage_C:ExecuteUbergraph_In_cage
+[2018.12.26-20.21.55:814][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f5109be00, Size=248, Default__In_cage_C Function /Game/Button/BP_Button.BP_Button_C:ExecuteUbergraph_BP_Button
+[2018.12.26-20.21.55:852][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f51623280, Size=168
+[2018.12.26-20.21.55:853][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f5109be00, Size=248
+[2018.12.26-20.21.55:853][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f51623280, Size=168, Default__In_cage_C Function /Engine/Transient.REINST_In_cage_C_14:ExecuteUbergraph_In_cage
+[2018.12.26-20.21.55:853][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f5109be00, Size=248, Default__In_cage_C Function /Game/Button/BP_Button.BP_Button_C:ExecuteUbergraph_BP_Button
+[2018.12.26-20.21.55:880][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f51622a40, Size=168, Default__In_cage_C Function /Game/Button/In_cage.In_cage_C:ExecuteUbergraph_In_cage
+[2018.12.26-20.21.55:881][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f51099400, Size=248, Default__In_cage_C Function /Game/Button/BP_Button.BP_Button_C:ExecuteUbergraph_BP_Button
+[2018.12.26-20.22.16:642][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f517e6200, Size=240, Default__UnderwaterFish_C Function /Game/Maps/UnderwaterFish.UnderwaterFish_C:ExecuteUbergraph_UnderwaterFish
+[2018.12.26-20.22.16:659][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f517e6200, Size=240
+[2018.12.26-20.22.16:659][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f517e6200, Size=240, Default__UnderwaterFish_C Function /Engine/Transient.REINST_UnderwaterFish_C_40:ExecuteUbergraph_UnderwaterFish
+[2018.12.26-20.22.16:672][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018f5371b000, Size=240, Default__UnderwaterFish_C Function /Game/Maps/UnderwaterFish.UnderwaterFish_C:ExecuteUbergraph_UnderwaterFish
+[2018.12.26-20.23.03:453][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [177.263107ms] /Game/Models/Robot/Robot.Robot
+[2018.12.26-20.23.11:096][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [289.113007ms] /Game/Models/Fish/fish.fish
+[2018.12.26-20.23.17:960][  0]LogAIModule: Creating AISystem for world UnderwaterFish
+[2018.12.26-20.23.31:914][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.26-20.23.32:612][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f43e50970, Size=48
+[2018.12.26-20.23.32:615][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f51a7c100, Size=1264
+[2018.12.26-20.23.32:615][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f50e09600, Size=248
+[2018.12.26-20.23.32:615][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f50eb9680, Size=8
+[2018.12.26-20.23.32:616][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f511d6800, Size=368
+[2018.12.26-20.23.32:616][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f51623280, Size=168
+[2018.12.26-20.23.32:616][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f5109be00, Size=248
+[2018.12.26-20.23.32:616][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f517e6200, Size=240
+[2018.12.26-20.23.32:729][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.26-20.23.32:964][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 234.805ms to complete.
+[2018.12.26-20.23.32:964][  0]LogFileHelpers: Loading map 'UnderwaterFish' took 125.408
+[2018.12.26-20.23.36:383][  0]LogCollectionManager: Loaded 0 collections in 0.020555 seconds
+[2018.12.26-20.23.36:538][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cesar/Desktop/OceanProject/Saved/Collections/' took 0.01s
+[2018.12.26-20.23.36:538][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cesar/Desktop/OceanProject/Content/Developers/Cesar/Collections/' took 0.01s
+[2018.12.26-20.23.36:538][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cesar/Desktop/OceanProject/Content/Collections/' took 0.01s
+[2018.12.26-20.23.36:538][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.26-20.23.36:580][  0]LogContentBrowser: Native class hierarchy populated in 0.0404 seconds. Added 2519 classes and 591 folders.
+[2018.12.26-20.23.36:904][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2018.12.26-20.23.43:527][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2018.12.26-20.23.44:196][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2018.12.26-20.23.46:830][  0]LogSlate: Took 0.180097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.26-20.23.46:901][  0]LogSlate: Took 0.065817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.26-20.23.46:995][  0]LogSlate: Took 0.031287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.26-20.23.49:061][  0]LogRenderer: Reallocating scene render targets to support 700x548 Format 10 NumSamples 1 (Frame:1).
+[2018.12.26-20.23.52:915][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2018.12.26-20.23.52:915][  0]LogLoad: (Engine Initialization) Total time: 630.14 seconds
+[2018.12.26-20.23.52:915][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.26-20.23.54:102][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.26-20.23.55:043][  1]LogParticles: Warning: Spawning 40000 GPU particles in one frame[2]: BubbleP/Particle Emitter
+[2018.12.26-20.23.55:845][  1]LogSlate: Took 0.058043 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.26-20.23.55:992][  2]LogParticles: Warning: Spawning 40000 GPU particles in one frame[3]: BubbleP/Particle Emitter
+[2018.12.26-20.23.56:321][  3]LogParticles: Warning: Spawning 33333 GPU particles in one frame[4]: BubbleP/Particle Emitter
+[2018.12.26-20.23.56:777][  4]LogAssetRegistry: Asset discovery search completed in 359.4979 seconds
+[2018.12.26-20.23.56:832][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.12.26-20.23.56:832][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000215 seconds (updated 0 objects)
+[2018.12.26-20.23.56:856][  4]LogParticles: Warning: Spawning 38550 GPU particles in one frame[5]: BubbleP/Particle Emitter
+[2018.12.26-20.23.57:936][  5]LogParticles: Warning: Spawning 40000 GPU particles in one frame[6]: BubbleP/Particle Emitter
+[2018.12.26-20.23.58:163][  6]LogParticles: Warning: Spawning 33334 GPU particles in one frame[7]: BubbleP/Particle Emitter
+[2018.12.26-20.23.58:480][  7]LogParticles: Warning: Spawning 33333 GPU particles in one frame[8]: BubbleP/Particle Emitter
+[2018.12.26-20.23.58:808][  8]LogParticles: Warning: Spawning 33334 GPU particles in one frame[9]: BubbleP/Particle Emitter
+[2018.12.26-20.23.59:127][  9]LogParticles: Warning: Spawning 33333 GPU particles in one frame[10]: BubbleP/Particle Emitter
+[2018.12.26-20.23.59:474][ 10]LogParticles: Warning: Spawning 33334 GPU particles in one frame[11]: BubbleP/Particle Emitter
+[2018.12.26-20.23.59:827][ 11]LogParticles: Warning: Spawning 33334 GPU particles in one frame[12]: BubbleP/Particle Emitter
+[2018.12.26-20.24.00:128][ 12]LogParticles: Warning: Spawning 33333 GPU particles in one frame[13]: BubbleP/Particle Emitter
+[2018.12.26-20.24.00:471][ 13]LogParticles: Warning: Spawning 33334 GPU particles in one frame[14]: BubbleP/Particle Emitter
+[2018.12.26-20.24.00:811][ 14]LogParticles: Warning: Spawning 33334 GPU particles in one frame[15]: BubbleP/Particle Emitter
+[2018.12.26-20.24.01:131][ 15]LogParticles: Warning: Spawning 33333 GPU particles in one frame[16]: BubbleP/Particle Emitter
+[2018.12.26-20.24.01:458][ 16]LogParticles: Warning: Spawning 33334 GPU particles in one frame[17]: BubbleP/Particle Emitter
+[2018.12.26-20.24.01:803][ 17]LogParticles: Warning: Spawning 33333 GPU particles in one frame[18]: BubbleP/Particle Emitter
+[2018.12.26-20.24.02:132][ 18]LogParticles: Warning: Spawning 33334 GPU particles in one frame[19]: BubbleP/Particle Emitter
+[2018.12.26-20.24.02:460][ 19]LogParticles: Warning: Spawning 33333 GPU particles in one frame[20]: BubbleP/Particle Emitter
+[2018.12.26-20.24.02:808][ 20]LogParticles: Warning: Spawning 33334 GPU particles in one frame[21]: BubbleP/Particle Emitter
+[2018.12.26-20.24.03:150][ 21]LogParticles: Warning: Spawning 33856 GPU particles in one frame[22]: BubbleP/Particle Emitter
+[2018.12.26-20.24.03:465][ 22]LogParticles: Warning: Spawning 33333 GPU particles in one frame[23]: BubbleP/Particle Emitter
+[2018.12.26-20.24.03:810][ 23]LogParticles: Warning: Spawning 33334 GPU particles in one frame[24]: BubbleP/Particle Emitter
+[2018.12.26-20.24.04:134][ 24]LogParticles: Warning: Spawning 33333 GPU particles in one frame[25]: BubbleP/Particle Emitter
+[2018.12.26-20.24.04:485][ 25]LogParticles: Warning: Spawning 33334 GPU particles in one frame[26]: BubbleP/Particle Emitter
+[2018.12.26-20.24.04:804][ 26]LogParticles: Warning: Spawning 33333 GPU particles in one frame[27]: BubbleP/Particle Emitter
+[2018.12.26-20.24.05:134][ 27]LogParticles: Warning: Spawning 33334 GPU particles in one frame[28]: BubbleP/Particle Emitter
+[2018.12.26-20.24.05:496][ 28]LogParticles: Warning: Spawning 33333 GPU particles in one frame[29]: BubbleP/Particle Emitter
+[2018.12.26-20.24.05:830][ 29]LogParticles: Warning: Spawning 35413 GPU particles in one frame[30]: BubbleP/Particle Emitter
+[2018.12.26-20.24.06:159][ 30]LogParticles: Warning: Spawning 33333 GPU particles in one frame[31]: BubbleP/Particle Emitter
+[2018.12.26-20.24.06:491][ 31]LogParticles: Warning: Spawning 33335 GPU particles in one frame[32]: BubbleP/Particle Emitter
+[2018.12.26-20.24.06:827][ 32]LogParticles: Warning: Spawning 33854 GPU particles in one frame[33]: BubbleP/Particle Emitter
+[2018.12.26-20.24.07:164][ 33]LogParticles: Warning: Spawning 33333 GPU particles in one frame[34]: BubbleP/Particle Emitter
+[2018.12.26-20.24.07:503][ 34]LogParticles: Warning: Spawning 33334 GPU particles in one frame[35]: BubbleP/Particle Emitter
+[2018.12.26-20.24.07:862][ 35]LogParticles: Warning: Spawning 33334 GPU particles in one frame[36]: BubbleP/Particle Emitter
+[2018.12.26-20.24.08:164][ 36]LogParticles: Warning: Spawning 33333 GPU particles in one frame[37]: BubbleP/Particle Emitter
+[2018.12.26-20.24.08:509][ 37]LogParticles: Warning: Spawning 33334 GPU particles in one frame[38]: BubbleP/Particle Emitter
+[2018.12.26-20.24.08:833][ 38]LogParticles: Warning: Spawning 33334 GPU particles in one frame[39]: BubbleP/Particle Emitter
+[2018.12.26-20.24.09:198][ 39]LogParticles: Warning: Spawning 33334 GPU particles in one frame[40]: BubbleP/Particle Emitter
+[2018.12.26-20.24.09:497][ 40]LogParticles: Warning: Spawning 33333 GPU particles in one frame[41]: BubbleP/Particle Emitter
+[2018.12.26-20.24.09:837][ 41]LogParticles: Warning: Spawning 33334 GPU particles in one frame[42]: BubbleP/Particle Emitter
+[2018.12.26-20.24.10:161][ 42]LogParticles: Warning: Spawning 33333 GPU particles in one frame[43]: BubbleP/Particle Emitter
+[2018.12.26-20.24.10:523][ 43]LogParticles: Warning: Spawning 33333 GPU particles in one frame[44]: BubbleP/Particle Emitter
+[2018.12.26-20.24.10:852][ 44]LogParticles: Warning: Spawning 33334 GPU particles in one frame[45]: BubbleP/Particle Emitter
+[2018.12.26-20.24.11:169][ 45]LogParticles: Warning: Spawning 33334 GPU particles in one frame[46]: BubbleP/Particle Emitter
+[2018.12.26-20.24.11:516][ 46]LogParticles: Warning: Spawning 33334 GPU particles in one frame[47]: BubbleP/Particle Emitter
+[2018.12.26-20.24.11:863][ 47]LogParticles: Warning: Spawning 33333 GPU particles in one frame[48]: BubbleP/Particle Emitter
+[2018.12.26-20.24.12:163][ 48]LogParticles: Warning: Spawning 33334 GPU particles in one frame[49]: BubbleP/Particle Emitter
+[2018.12.26-20.24.12:528][ 49]LogParticles: Warning: Spawning 33334 GPU particles in one frame[50]: BubbleP/Particle Emitter
+[2018.12.26-20.24.12:851][ 50]LogParticles: Warning: Spawning 33334 GPU particles in one frame[51]: BubbleP/Particle Emitter
+[2018.12.26-20.24.13:186][ 51]LogParticles: Warning: Spawning 33334 GPU particles in one frame[52]: BubbleP/Particle Emitter
+[2018.12.26-20.24.13:497][ 52]LogParticles: Warning: Spawning 33333 GPU particles in one frame[53]: BubbleP/Particle Emitter
+[2018.12.26-20.24.13:847][ 53]LogParticles: Warning: Spawning 33334 GPU particles in one frame[54]: BubbleP/Particle Emitter
+[2018.12.26-20.24.14:184][ 54]LogParticles: Warning: Spawning 33334 GPU particles in one frame[55]: BubbleP/Particle Emitter
+[2018.12.26-20.24.14:515][ 55]LogParticles: Warning: Spawning 33334 GPU particles in one frame[56]: BubbleP/Particle Emitter
+[2018.12.26-20.24.14:844][ 56]LogParticles: Warning: Spawning 33333 GPU particles in one frame[57]: BubbleP/Particle Emitter
+[2018.12.26-20.24.15:194][ 57]LogParticles: Warning: Spawning 33334 GPU particles in one frame[58]: BubbleP/Particle Emitter
+[2018.12.26-20.24.15:498][ 58]LogParticles: Warning: Spawning 33334 GPU particles in one frame[59]: BubbleP/Particle Emitter
+[2018.12.26-20.24.15:838][ 59]LogParticles: Warning: Spawning 33333 GPU particles in one frame[60]: BubbleP/Particle Emitter
+[2018.12.26-20.24.16:173][ 60]LogParticles: Warning: Spawning 33334 GPU particles in one frame[61]: BubbleP/Particle Emitter
+[2018.12.26-20.24.16:518][ 61]LogParticles: Warning: Spawning 33334 GPU particles in one frame[62]: BubbleP/Particle Emitter
+[2018.12.26-20.24.16:862][ 62]LogParticles: Warning: Spawning 33334 GPU particles in one frame[63]: BubbleP/Particle Emitter
+[2018.12.26-20.24.17:179][ 63]LogParticles: Warning: Spawning 33333 GPU particles in one frame[64]: BubbleP/Particle Emitter
+[2018.12.26-20.24.17:513][ 64]LogParticles: Warning: Spawning 33334 GPU particles in one frame[65]: BubbleP/Particle Emitter
+[2018.12.26-20.24.17:853][ 65]LogParticles: Warning: Spawning 33334 GPU particles in one frame[66]: BubbleP/Particle Emitter
+[2018.12.26-20.24.18:158][ 66]LogParticles: Warning: Spawning 33333 GPU particles in one frame[67]: BubbleP/Particle Emitter
+[2018.12.26-20.24.18:497][ 67]LogParticles: Warning: Spawning 33334 GPU particles in one frame[68]: BubbleP/Particle Emitter
+[2018.12.26-20.24.18:825][ 68]LogParticles: Warning: Spawning 33333 GPU particles in one frame[69]: BubbleP/Particle Emitter
+[2018.12.26-20.24.19:185][ 69]LogParticles: Warning: Spawning 33334 GPU particles in one frame[70]: BubbleP/Particle Emitter
+[2018.12.26-20.24.19:500][ 70]LogParticles: Warning: Spawning 33333 GPU particles in one frame[71]: BubbleP/Particle Emitter
+[2018.12.26-20.24.19:857][ 71]LogParticles: Warning: Spawning 33334 GPU particles in one frame[72]: BubbleP/Particle Emitter
+[2018.12.26-20.24.20:162][ 72]LogParticles: Warning: Spawning 33334 GPU particles in one frame[73]: BubbleP/Particle Emitter
+[2018.12.26-20.24.20:523][ 73]LogParticles: Warning: Spawning 33333 GPU particles in one frame[74]: BubbleP/Particle Emitter
+[2018.12.26-20.24.20:832][ 74]LogParticles: Warning: Spawning 33334 GPU particles in one frame[75]: BubbleP/Particle Emitter
+[2018.12.26-20.24.21:166][ 75]LogParticles: Warning: Spawning 33333 GPU particles in one frame[76]: BubbleP/Particle Emitter
+[2018.12.26-20.24.21:494][ 76]LogParticles: Warning: Spawning 33334 GPU particles in one frame[77]: BubbleP/Particle Emitter
+[2018.12.26-20.24.21:840][ 77]LogParticles: Warning: Spawning 33333 GPU particles in one frame[78]: BubbleP/Particle Emitter
+[2018.12.26-20.24.22:182][ 78]LogParticles: Warning: Spawning 33334 GPU particles in one frame[79]: BubbleP/Particle Emitter
+[2018.12.26-20.24.22:503][ 79]LogParticles: Warning: Spawning 33334 GPU particles in one frame[80]: BubbleP/Particle Emitter
+[2018.12.26-20.24.22:855][ 80]LogParticles: Warning: Spawning 33334 GPU particles in one frame[81]: BubbleP/Particle Emitter
+[2018.12.26-20.24.23:207][ 81]LogParticles: Warning: Spawning 33334 GPU particles in one frame[82]: BubbleP/Particle Emitter
+[2018.12.26-20.24.23:505][ 82]LogParticles: Warning: Spawning 33333 GPU particles in one frame[83]: BubbleP/Particle Emitter
+[2018.12.26-20.24.23:859][ 83]LogParticles: Warning: Spawning 33334 GPU particles in one frame[84]: BubbleP/Particle Emitter
+[2018.12.26-20.24.24:161][ 84]LogParticles: Warning: Spawning 33333 GPU particles in one frame[85]: BubbleP/Particle Emitter
+[2018.12.26-20.24.24:523][ 85]LogParticles: Warning: Spawning 33334 GPU particles in one frame[86]: BubbleP/Particle Emitter
+[2018.12.26-20.24.24:831][ 86]LogParticles: Warning: Spawning 33333 GPU particles in one frame[87]: BubbleP/Particle Emitter
+[2018.12.26-20.24.25:162][ 87]LogParticles: Warning: Spawning 33334 GPU particles in one frame[88]: BubbleP/Particle Emitter
+[2018.12.26-20.24.25:496][ 88]LogParticles: Warning: Spawning 33333 GPU particles in one frame[89]: BubbleP/Particle Emitter
+[2018.12.26-20.24.25:854][ 89]LogParticles: Warning: Spawning 33333 GPU particles in one frame[90]: BubbleP/Particle Emitter
+[2018.12.26-20.24.26:198][ 90]LogParticles: Warning: Spawning 33334 GPU particles in one frame[91]: BubbleP/Particle Emitter
+[2018.12.26-20.24.26:492][ 91]LogParticles: Warning: Spawning 33333 GPU particles in one frame[92]: BubbleP/Particle Emitter
+[2018.12.26-20.24.26:827][ 92]LogParticles: Warning: Spawning 33334 GPU particles in one frame[93]: BubbleP/Particle Emitter
+[2018.12.26-20.24.27:158][ 93]LogParticles: Warning: Spawning 33334 GPU particles in one frame[94]: BubbleP/Particle Emitter
+[2018.12.26-20.24.27:522][ 94]LogParticles: Warning: Spawning 33333 GPU particles in one frame[95]: BubbleP/Particle Emitter
+[2018.12.26-20.24.27:850][ 95]LogParticles: Warning: Spawning 33340 GPU particles in one frame[96]: BubbleP/Particle Emitter
+[2018.12.26-20.24.28:174][ 96]LogParticles: Warning: Spawning 33333 GPU particles in one frame[97]: BubbleP/Particle Emitter
+[2018.12.26-20.24.28:500][ 97]LogParticles: Warning: Spawning 33333 GPU particles in one frame[98]: BubbleP/Particle Emitter
+[2018.12.26-20.24.28:846][ 98]LogParticles: Warning: Spawning 33336 GPU particles in one frame[99]: BubbleP/Particle Emitter
+[2018.12.26-20.24.29:166][ 99]LogParticles: Warning: Spawning 33334 GPU particles in one frame[100]: BubbleP/Particle Emitter
+[2018.12.26-20.24.29:509][100]LogParticles: Warning: Spawning 33333 GPU particles in one frame[101]: BubbleP/Particle Emitter
+[2018.12.26-20.24.29:846][101]LogParticles: Warning: Spawning 33334 GPU particles in one frame[102]: BubbleP/Particle Emitter
+[2018.12.26-20.24.30:163][102]LogParticles: Warning: Spawning 33436 GPU particles in one frame[103]: BubbleP/Particle Emitter
+[2018.12.26-20.24.30:523][103]LogParticles: Warning: Spawning 33467 GPU particles in one frame[104]: BubbleP/Particle Emitter
+[2018.12.26-20.24.30:850][104]LogParticles: Warning: Spawning 33334 GPU particles in one frame[105]: BubbleP/Particle Emitter
+[2018.12.26-20.24.31:174][105]LogParticles: Warning: Spawning 33334 GPU particles in one frame[106]: BubbleP/Particle Emitter
+[2018.12.26-20.24.31:514][106]LogParticles: Warning: Spawning 33333 GPU particles in one frame[107]: BubbleP/Particle Emitter
+[2018.12.26-20.24.31:867][107]LogParticles: Warning: Spawning 33334 GPU particles in one frame[108]: BubbleP/Particle Emitter
+[2018.12.26-20.24.32:196][108]LogParticles: Warning: Spawning 33334 GPU particles in one frame[109]: BubbleP/Particle Emitter
+[2018.12.26-20.24.32:526][109]LogParticles: Warning: Spawning 33334 GPU particles in one frame[110]: BubbleP/Particle Emitter
+[2018.12.26-20.24.32:840][110]LogParticles: Warning: Spawning 33334 GPU particles in one frame[111]: BubbleP/Particle Emitter
+[2018.12.26-20.24.33:174][111]LogParticles: Warning: Spawning 33334 GPU particles in one frame[112]: BubbleP/Particle Emitter
+[2018.12.26-20.24.33:527][112]LogParticles: Warning: Spawning 33335 GPU particles in one frame[113]: BubbleP/Particle Emitter
+[2018.12.26-20.24.33:855][113]LogParticles: Warning: Spawning 33333 GPU particles in one frame[114]: BubbleP/Particle Emitter
+[2018.12.26-20.24.34:166][114]LogParticles: Warning: Spawning 33334 GPU particles in one frame[115]: BubbleP/Particle Emitter
+[2018.12.26-20.24.34:527][115]LogParticles: Warning: Spawning 33334 GPU particles in one frame[116]: BubbleP/Particle Emitter
+[2018.12.26-20.24.34:832][116]LogParticles: Warning: Spawning 33333 GPU particles in one frame[117]: BubbleP/Particle Emitter
+[2018.12.26-20.24.35:179][117]LogParticles: Warning: Spawning 33334 GPU particles in one frame[118]: BubbleP/Particle Emitter
+[2018.12.26-20.24.35:534][118]LogParticles: Warning: Spawning 33334 GPU particles in one frame[119]: BubbleP/Particle Emitter
+[2018.12.26-20.24.35:864][119]LogParticles: Warning: Spawning 33340 GPU particles in one frame[120]: BubbleP/Particle Emitter
+[2018.12.26-20.24.36:166][120]LogParticles: Warning: Spawning 33334 GPU particles in one frame[121]: BubbleP/Particle Emitter
+[2018.12.26-20.24.36:522][121]LogParticles: Warning: Spawning 33426 GPU particles in one frame[122]: BubbleP/Particle Emitter
+[2018.12.26-20.24.36:855][122]LogParticles: Warning: Spawning 33334 GPU particles in one frame[123]: BubbleP/Particle Emitter
+[2018.12.26-20.24.37:191][123]LogParticles: Warning: Spawning 33333 GPU particles in one frame[124]: BubbleP/Particle Emitter
+[2018.12.26-20.24.37:513][124]LogParticles: Warning: Spawning 33334 GPU particles in one frame[125]: BubbleP/Particle Emitter
+[2018.12.26-20.24.37:850][125]LogParticles: Warning: Spawning 33333 GPU particles in one frame[126]: BubbleP/Particle Emitter
+[2018.12.26-20.24.38:172][126]LogParticles: Warning: Spawning 33341 GPU particles in one frame[127]: BubbleP/Particle Emitter
+[2018.12.26-20.24.38:537][127]LogParticles: Warning: Spawning 33334 GPU particles in one frame[128]: BubbleP/Particle Emitter
+[2018.12.26-20.24.38:841][128]LogParticles: Warning: Spawning 33333 GPU particles in one frame[129]: BubbleP/Particle Emitter
+[2018.12.26-20.24.39:165][129]LogParticles: Warning: Spawning 33334 GPU particles in one frame[130]: BubbleP/Particle Emitter
+[2018.12.26-20.24.39:520][130]LogParticles: Warning: Spawning 33333 GPU particles in one frame[131]: BubbleP/Particle Emitter
+[2018.12.26-20.24.39:831][131]LogParticles: Warning: Spawning 33334 GPU particles in one frame[132]: BubbleP/Particle Emitter
+[2018.12.26-20.24.40:214][132]LogParticles: Warning: Spawning 33334 GPU particles in one frame[133]: BubbleP/Particle Emitter
+[2018.12.26-20.24.40:497][133]LogParticles: Warning: Spawning 33334 GPU particles in one frame[134]: BubbleP/Particle Emitter
+[2018.12.26-20.24.40:830][134]LogParticles: Warning: Spawning 33333 GPU particles in one frame[135]: BubbleP/Particle Emitter
+[2018.12.26-20.24.41:167][135]LogParticles: Warning: Spawning 33334 GPU particles in one frame[136]: BubbleP/Particle Emitter
+[2018.12.26-20.24.41:499][136]LogParticles: Warning: Spawning 33333 GPU particles in one frame[137]: BubbleP/Particle Emitter
+[2018.12.26-20.24.41:831][137]LogParticles: Warning: Spawning 33335 GPU particles in one frame[138]: BubbleP/Particle Emitter
+[2018.12.26-20.24.42:180][138]LogParticles: Warning: Spawning 33334 GPU particles in one frame[139]: BubbleP/Particle Emitter
+[2018.12.26-20.24.42:499][139]LogParticles: Warning: Spawning 33333 GPU particles in one frame[140]: BubbleP/Particle Emitter
+[2018.12.26-20.24.42:840][140]LogParticles: Warning: Spawning 33334 GPU particles in one frame[141]: BubbleP/Particle Emitter
+[2018.12.26-20.24.43:176][141]LogParticles: Warning: Spawning 33334 GPU particles in one frame[142]: BubbleP/Particle Emitter
+[2018.12.26-20.24.43:511][142]LogParticles: Warning: Spawning 33334 GPU particles in one frame[143]: BubbleP/Particle Emitter
+[2018.12.26-20.24.43:832][143]LogParticles: Warning: Spawning 33333 GPU particles in one frame[144]: BubbleP/Particle Emitter
+[2018.12.26-20.24.44:187][144]LogParticles: Warning: Spawning 33334 GPU particles in one frame[145]: BubbleP/Particle Emitter
+[2018.12.26-20.24.44:526][145]LogParticles: Warning: Spawning 33334 GPU particles in one frame[146]: BubbleP/Particle Emitter
+[2018.12.26-20.24.44:858][146]LogParticles: Warning: Spawning 33333 GPU particles in one frame[147]: BubbleP/Particle Emitter
+[2018.12.26-20.24.45:201][147]LogParticles: Warning: Spawning 33334 GPU particles in one frame[148]: BubbleP/Particle Emitter
+[2018.12.26-20.24.45:502][148]LogParticles: Warning: Spawning 33334 GPU particles in one frame[149]: BubbleP/Particle Emitter
+[2018.12.26-20.24.45:848][149]LogParticles: Warning: Spawning 33334 GPU particles in one frame[150]: BubbleP/Particle Emitter
+[2018.12.26-20.24.46:190][150]LogParticles: Warning: Spawning 33334 GPU particles in one frame[151]: BubbleP/Particle Emitter
+[2018.12.26-20.24.46:507][151]LogParticles: Warning: Spawning 33333 GPU particles in one frame[152]: BubbleP/Particle Emitter
+[2018.12.26-20.24.46:844][152]LogParticles: Warning: Spawning 33334 GPU particles in one frame[153]: BubbleP/Particle Emitter
+[2018.12.26-20.24.47:186][153]LogParticles: Warning: Spawning 33336 GPU particles in one frame[154]: BubbleP/Particle Emitter
+[2018.12.26-20.24.47:528][154]LogParticles: Warning: Spawning 33334 GPU particles in one frame[155]: BubbleP/Particle Emitter
+[2018.12.26-20.24.47:839][155]LogParticles: Warning: Spawning 33334 GPU particles in one frame[156]: BubbleP/Particle Emitter
+[2018.12.26-20.24.48:180][156]LogParticles: Warning: Spawning 33333 GPU particles in one frame[157]: BubbleP/Particle Emitter
+[2018.12.26-20.24.48:497][157]LogParticles: Warning: Spawning 33334 GPU particles in one frame[158]: BubbleP/Particle Emitter
+[2018.12.26-20.24.48:931][158]LogParticles: Warning: Spawning 38357 GPU particles in one frame[159]: BubbleP/Particle Emitter
+[2018.12.26-20.24.49:214][159]LogParticles: Warning: Spawning 33333 GPU particles in one frame[160]: BubbleP/Particle Emitter
+[2018.12.26-20.24.49:561][160]LogParticles: Warning: Spawning 33334 GPU particles in one frame[161]: BubbleP/Particle Emitter
+[2018.12.26-20.24.49:904][161]LogParticles: Warning: Spawning 33334 GPU particles in one frame[162]: BubbleP/Particle Emitter
+[2018.12.26-20.24.50:224][162]LogParticles: Warning: Spawning 33334 GPU particles in one frame[163]: BubbleP/Particle Emitter
+[2018.12.26-20.24.50:562][163]LogParticles: Warning: Spawning 33333 GPU particles in one frame[164]: BubbleP/Particle Emitter
+[2018.12.26-20.24.50:917][164]LogParticles: Warning: Spawning 33334 GPU particles in one frame[165]: BubbleP/Particle Emitter
+[2018.12.26-20.24.51:228][165]LogParticles: Warning: Spawning 33334 GPU particles in one frame[166]: BubbleP/Particle Emitter
+[2018.12.26-20.24.51:561][166]LogParticles: Warning: Spawning 33334 GPU particles in one frame[167]: BubbleP/Particle Emitter
+[2018.12.26-20.24.51:909][167]LogParticles: Warning: Spawning 33356 GPU particles in one frame[168]: BubbleP/Particle Emitter
+[2018.12.26-20.24.52:216][168]LogParticles: Warning: Spawning 33334 GPU particles in one frame[169]: BubbleP/Particle Emitter
+[2018.12.26-20.24.52:560][169]LogParticles: Warning: Spawning 33334 GPU particles in one frame[170]: BubbleP/Particle Emitter
+[2018.12.26-20.24.52:908][170]LogParticles: Warning: Spawning 33333 GPU particles in one frame[171]: BubbleP/Particle Emitter
+[2018.12.26-20.24.53:216][171]LogParticles: Warning: Spawning 33334 GPU particles in one frame[172]: BubbleP/Particle Emitter
+[2018.12.26-20.24.53:892][172]LogParticles: Warning: Spawning 40000 GPU particles in one frame[173]: BubbleP/Particle Emitter
+[2018.12.26-20.24.54:168][173]LogParticles: Warning: Spawning 33333 GPU particles in one frame[174]: BubbleP/Particle Emitter
+[2018.12.26-20.24.54:512][174]LogParticles: Warning: Spawning 33334 GPU particles in one frame[175]: BubbleP/Particle Emitter
+[2018.12.26-20.24.54:843][175]LogParticles: Warning: Spawning 33469 GPU particles in one frame[176]: BubbleP/Particle Emitter
+[2018.12.26-20.24.55:192][176]LogParticles: Warning: Spawning 33430 GPU particles in one frame[177]: BubbleP/Particle Emitter
+[2018.12.26-20.24.55:513][177]LogParticles: Warning: Spawning 33335 GPU particles in one frame[178]: BubbleP/Particle Emitter
+[2018.12.26-20.24.55:838][178]LogParticles: Warning: Spawning 33359 GPU particles in one frame[179]: BubbleP/Particle Emitter
+[2018.12.26-20.24.56:172][179]LogParticles: Warning: Spawning 33334 GPU particles in one frame[180]: BubbleP/Particle Emitter
+[2018.12.26-20.24.56:533][180]LogParticles: Warning: Spawning 33334 GPU particles in one frame[181]: BubbleP/Particle Emitter
+[2018.12.26-20.24.56:840][181]LogParticles: Warning: Spawning 33333 GPU particles in one frame[182]: BubbleP/Particle Emitter
+[2018.12.26-20.24.57:174][182]LogParticles: Warning: Spawning 33334 GPU particles in one frame[183]: BubbleP/Particle Emitter
+[2018.12.26-20.24.57:526][183]LogParticles: Warning: Spawning 33333 GPU particles in one frame[184]: BubbleP/Particle Emitter
+[2018.12.26-20.24.57:845][184]LogParticles: Warning: Spawning 33334 GPU particles in one frame[185]: BubbleP/Particle Emitter
+[2018.12.26-20.24.58:186][185]LogParticles: Warning: Spawning 33417 GPU particles in one frame[186]: BubbleP/Particle Emitter
+[2018.12.26-20.24.58:532][186]LogParticles: Warning: Spawning 33337 GPU particles in one frame[187]: BubbleP/Particle Emitter
+[2018.12.26-20.24.58:836][187]LogParticles: Warning: Spawning 33334 GPU particles in one frame[188]: BubbleP/Particle Emitter
+[2018.12.26-20.24.59:196][188]LogParticles: Warning: Spawning 33336 GPU particles in one frame[189]: BubbleP/Particle Emitter
+[2018.12.26-20.24.59:517][189]LogParticles: Warning: Spawning 33334 GPU particles in one frame[190]: BubbleP/Particle Emitter
+[2018.12.26-20.24.59:834][190]LogParticles: Warning: Spawning 33333 GPU particles in one frame[191]: BubbleP/Particle Emitter
+[2018.12.26-20.25.00:193][191]LogParticles: Warning: Spawning 33334 GPU particles in one frame[192]: BubbleP/Particle Emitter
+[2018.12.26-20.25.00:514][192]LogParticles: Warning: Spawning 33333 GPU particles in one frame[193]: BubbleP/Particle Emitter
+[2018.12.26-20.25.00:861][193]LogParticles: Warning: Spawning 33334 GPU particles in one frame[194]: BubbleP/Particle Emitter
+[2018.12.26-20.25.01:189][194]LogParticles: Warning: Spawning 33365 GPU particles in one frame[195]: BubbleP/Particle Emitter
+[2018.12.26-20.25.01:530][195]LogParticles: Warning: Spawning 33334 GPU particles in one frame[196]: BubbleP/Particle Emitter
+[2018.12.26-20.25.01:838][196]LogParticles: Warning: Spawning 33334 GPU particles in one frame[197]: BubbleP/Particle Emitter
+[2018.12.26-20.25.02:210][197]LogParticles: Warning: Spawning 33333 GPU particles in one frame[198]: BubbleP/Particle Emitter
+[2018.12.26-20.25.02:520][198]LogParticles: Warning: Spawning 33336 GPU particles in one frame[199]: BubbleP/Particle Emitter
+[2018.12.26-20.25.02:850][199]LogParticles: Warning: Spawning 33334 GPU particles in one frame[200]: BubbleP/Particle Emitter
+[2018.12.26-20.25.03:170][200]LogParticles: Warning: Spawning 33333 GPU particles in one frame[201]: BubbleP/Particle Emitter
+[2018.12.26-20.25.03:532][201]LogParticles: Warning: Spawning 33334 GPU particles in one frame[202]: BubbleP/Particle Emitter
+[2018.12.26-20.25.03:838][202]LogParticles: Warning: Spawning 33334 GPU particles in one frame[203]: BubbleP/Particle Emitter
+[2018.12.26-20.25.04:191][203]LogParticles: Warning: Spawning 33334 GPU particles in one frame[204]: BubbleP/Particle Emitter
+[2018.12.26-20.25.04:526][204]LogParticles: Warning: Spawning 33333 GPU particles in one frame[205]: BubbleP/Particle Emitter
+[2018.12.26-20.25.04:854][205]LogParticles: Warning: Spawning 33334 GPU particles in one frame[206]: BubbleP/Particle Emitter
+[2018.12.26-20.25.05:201][206]LogParticles: Warning: Spawning 33333 GPU particles in one frame[207]: BubbleP/Particle Emitter
+[2018.12.26-20.25.05:505][207]LogParticles: Warning: Spawning 33334 GPU particles in one frame[208]: BubbleP/Particle Emitter
+[2018.12.26-20.25.05:865][208]LogParticles: Warning: Spawning 33333 GPU particles in one frame[209]: BubbleP/Particle Emitter
+[2018.12.26-20.25.06:173][209]LogParticles: Warning: Spawning 33334 GPU particles in one frame[210]: BubbleP/Particle Emitter
+[2018.12.26-20.25.06:534][210]LogParticles: Warning: Spawning 33333 GPU particles in one frame[211]: BubbleP/Particle Emitter
+[2018.12.26-20.25.06:845][211]LogParticles: Warning: Spawning 33334 GPU particles in one frame[212]: BubbleP/Particle Emitter
+[2018.12.26-20.25.07:176][212]LogParticles: Warning: Spawning 33333 GPU particles in one frame[213]: BubbleP/Particle Emitter
+[2018.12.26-20.25.07:536][213]LogParticles: Warning: Spawning 33334 GPU particles in one frame[214]: BubbleP/Particle Emitter
+[2018.12.26-20.25.07:877][214]LogParticles: Warning: Spawning 33337 GPU particles in one frame[215]: BubbleP/Particle Emitter
+[2018.12.26-20.25.08:196][215]LogParticles: Warning: Spawning 33333 GPU particles in one frame[216]: BubbleP/Particle Emitter
+[2018.12.26-20.25.08:525][216]LogParticles: Warning: Spawning 33334 GPU particles in one frame[217]: BubbleP/Particle Emitter
+[2018.12.26-20.25.08:836][217]LogParticles: Warning: Spawning 33333 GPU particles in one frame[218]: BubbleP/Particle Emitter
+[2018.12.26-20.25.09:192][218]LogParticles: Warning: Spawning 33334 GPU particles in one frame[219]: BubbleP/Particle Emitter
+[2018.12.26-20.25.09:513][219]LogParticles: Warning: Spawning 33334 GPU particles in one frame[220]: BubbleP/Particle Emitter
+[2018.12.26-20.25.09:847][220]LogParticles: Warning: Spawning 33333 GPU particles in one frame[221]: BubbleP/Particle Emitter
+[2018.12.26-20.25.10:189][221]LogParticles: Warning: Spawning 33334 GPU particles in one frame[222]: BubbleP/Particle Emitter
+[2018.12.26-20.25.10:526][222]LogParticles: Warning: Spawning 33333 GPU particles in one frame[223]: BubbleP/Particle Emitter
+[2018.12.26-20.25.10:869][223]LogParticles: Warning: Spawning 33335 GPU particles in one frame[224]: BubbleP/Particle Emitter
+[2018.12.26-20.25.11:201][224]LogParticles: Warning: Spawning 33333 GPU particles in one frame[225]: BubbleP/Particle Emitter
+[2018.12.26-20.25.11:503][225]LogParticles: Warning: Spawning 33334 GPU particles in one frame[226]: BubbleP/Particle Emitter
+[2018.12.26-20.25.11:859][226]LogParticles: Warning: Spawning 33334 GPU particles in one frame[227]: BubbleP/Particle Emitter
+[2018.12.26-20.25.12:198][227]LogParticles: Warning: Spawning 33334 GPU particles in one frame[228]: BubbleP/Particle Emitter
+[2018.12.26-20.25.12:505][228]LogParticles: Warning: Spawning 33334 GPU particles in one frame[229]: BubbleP/Particle Emitter
+[2018.12.26-20.25.12:842][229]LogParticles: Warning: Spawning 33333 GPU particles in one frame[230]: BubbleP/Particle Emitter
+[2018.12.26-20.25.13:174][230]LogParticles: Warning: Spawning 33334 GPU particles in one frame[231]: BubbleP/Particle Emitter
+[2018.12.26-20.25.13:505][231]LogParticles: Warning: Spawning 33333 GPU particles in one frame[232]: BubbleP/Particle Emitter
+[2018.12.26-20.25.13:872][232]LogParticles: Warning: Spawning 33334 GPU particles in one frame[233]: BubbleP/Particle Emitter
+[2018.12.26-20.25.14:185][233]LogParticles: Warning: Spawning 33333 GPU particles in one frame[234]: BubbleP/Particle Emitter
+[2018.12.26-20.25.14:508][234]LogParticles: Warning: Spawning 33334 GPU particles in one frame[235]: BubbleP/Particle Emitter
+[2018.12.26-20.25.14:853][235]LogParticles: Warning: Spawning 33339 GPU particles in one frame[236]: BubbleP/Particle Emitter
+[2018.12.26-20.25.15:171][236]LogParticles: Warning: Spawning 33334 GPU particles in one frame[237]: BubbleP/Particle Emitter
+[2018.12.26-20.25.15:533][237]LogParticles: Warning: Spawning 33333 GPU particles in one frame[238]: BubbleP/Particle Emitter
+[2018.12.26-20.25.15:855][238]LogParticles: Warning: Spawning 33334 GPU particles in one frame[239]: BubbleP/Particle Emitter
+[2018.12.26-20.25.16:188][239]LogParticles: Warning: Spawning 33333 GPU particles in one frame[240]: BubbleP/Particle Emitter
+[2018.12.26-20.25.16:524][240]LogParticles: Warning: Spawning 33334 GPU particles in one frame[241]: BubbleP/Particle Emitter
+[2018.12.26-20.25.16:833][241]LogParticles: Warning: Spawning 33334 GPU particles in one frame[242]: BubbleP/Particle Emitter
+[2018.12.26-20.25.17:198][242]LogParticles: Warning: Spawning 33333 GPU particles in one frame[243]: BubbleP/Particle Emitter
+[2018.12.26-20.25.17:511][243]LogParticles: Warning: Spawning 33334 GPU particles in one frame[244]: BubbleP/Particle Emitter
+[2018.12.26-20.25.17:866][244]LogParticles: Warning: Spawning 33334 GPU particles in one frame[245]: BubbleP/Particle Emitter
+[2018.12.26-20.25.18:185][245]LogParticles: Warning: Spawning 33333 GPU particles in one frame[246]: BubbleP/Particle Emitter
+[2018.12.26-20.25.18:533][246]LogParticles: Warning: Spawning 33343 GPU particles in one frame[247]: BubbleP/Particle Emitter
+[2018.12.26-20.25.18:857][247]LogParticles: Warning: Spawning 33334 GPU particles in one frame[248]: BubbleP/Particle Emitter
+[2018.12.26-20.25.19:192][248]LogParticles: Warning: Spawning 33333 GPU particles in one frame[249]: BubbleP/Particle Emitter
+[2018.12.26-20.25.19:503][249]LogParticles: Warning: Spawning 33334 GPU particles in one frame[250]: BubbleP/Particle Emitter
+[2018.12.26-20.25.19:868][250]LogParticles: Warning: Spawning 33334 GPU particles in one frame[251]: BubbleP/Particle Emitter
+[2018.12.26-20.25.20:180][251]LogParticles: Warning: Spawning 33333 GPU particles in one frame[252]: BubbleP/Particle Emitter
+[2018.12.26-20.25.20:532][252]LogParticles: Warning: Spawning 33334 GPU particles in one frame[253]: BubbleP/Particle Emitter
+[2018.12.26-20.25.20:862][253]LogParticles: Warning: Spawning 33334 GPU particles in one frame[254]: BubbleP/Particle Emitter
+[2018.12.26-20.25.21:192][254]LogParticles: Warning: Spawning 33334 GPU particles in one frame[255]: BubbleP/Particle Emitter
+[2018.12.26-20.25.21:513][255]LogParticles: Warning: Spawning 33334 GPU particles in one frame[256]: BubbleP/Particle Emitter
+[2018.12.26-20.25.21:866][256]LogParticles: Warning: Spawning 33333 GPU particles in one frame[257]: BubbleP/Particle Emitter
+[2018.12.26-20.25.22:189][257]LogParticles: Warning: Spawning 33335 GPU particles in one frame[258]: BubbleP/Particle Emitter
+[2018.12.26-20.25.22:514][258]LogParticles: Warning: Spawning 33341 GPU particles in one frame[259]: BubbleP/Particle Emitter
+[2018.12.26-20.25.22:872][259]LogParticles: Warning: Spawning 33334 GPU particles in one frame[260]: BubbleP/Particle Emitter
+[2018.12.26-20.25.23:201][260]LogParticles: Warning: Spawning 33334 GPU particles in one frame[261]: BubbleP/Particle Emitter
+[2018.12.26-20.25.23:534][261]LogParticles: Warning: Spawning 33342 GPU particles in one frame[262]: BubbleP/Particle Emitter
+[2018.12.26-20.25.23:840][262]LogParticles: Warning: Spawning 33334 GPU particles in one frame[263]: BubbleP/Particle Emitter
+[2018.12.26-20.25.24:197][263]LogParticles: Warning: Spawning 33334 GPU particles in one frame[264]: BubbleP/Particle Emitter
+[2018.12.26-20.25.24:515][264]LogParticles: Warning: Spawning 33338 GPU particles in one frame[265]: BubbleP/Particle Emitter
+[2018.12.26-20.25.24:847][265]LogParticles: Warning: Spawning 33341 GPU particles in one frame[266]: BubbleP/Particle Emitter
+[2018.12.26-20.25.25:178][266]LogParticles: Warning: Spawning 33334 GPU particles in one frame[267]: BubbleP/Particle Emitter
+[2018.12.26-20.25.25:529][267]LogParticles: Warning: Spawning 33345 GPU particles in one frame[268]: BubbleP/Particle Emitter
+[2018.12.26-20.25.25:867][268]LogParticles: Warning: Spawning 33334 GPU particles in one frame[269]: BubbleP/Particle Emitter
+[2018.12.26-20.25.26:199][269]LogParticles: Warning: Spawning 33334 GPU particles in one frame[270]: BubbleP/Particle Emitter
+[2018.12.26-20.25.26:519][270]LogParticles: Warning: Spawning 33336 GPU particles in one frame[271]: BubbleP/Particle Emitter
+[2018.12.26-20.25.26:859][271]LogParticles: Warning: Spawning 33337 GPU particles in one frame[272]: BubbleP/Particle Emitter
+[2018.12.26-20.25.27:177][272]LogParticles: Warning: Spawning 33368 GPU particles in one frame[273]: BubbleP/Particle Emitter
+[2018.12.26-20.25.27:506][273]LogParticles: Warning: Spawning 33339 GPU particles in one frame[274]: BubbleP/Particle Emitter
+[2018.12.26-20.25.27:839][274]LogParticles: Warning: Spawning 33334 GPU particles in one frame[275]: BubbleP/Particle Emitter
+[2018.12.26-20.25.28:193][275]LogParticles: Warning: Spawning 33334 GPU particles in one frame[276]: BubbleP/Particle Emitter
+[2018.12.26-20.25.28:536][276]LogParticles: Warning: Spawning 33333 GPU particles in one frame[277]: BubbleP/Particle Emitter
+[2018.12.26-20.25.28:866][277]LogParticles: Warning: Spawning 33337 GPU particles in one frame[278]: BubbleP/Particle Emitter
+[2018.12.26-20.25.29:184][278]LogParticles: Warning: Spawning 33337 GPU particles in one frame[279]: BubbleP/Particle Emitter
+[2018.12.26-20.25.29:527][279]LogParticles: Warning: Spawning 33334 GPU particles in one frame[280]: BubbleP/Particle Emitter
+[2018.12.26-20.25.29:866][280]LogParticles: Warning: Spawning 33334 GPU particles in one frame[281]: BubbleP/Particle Emitter
+[2018.12.26-20.25.30:193][281]LogParticles: Warning: Spawning 33333 GPU particles in one frame[282]: BubbleP/Particle Emitter
+[2018.12.26-20.25.30:516][282]LogParticles: Warning: Spawning 33337 GPU particles in one frame[283]: BubbleP/Particle Emitter
+[2018.12.26-20.25.30:842][283]LogParticles: Warning: Spawning 33335 GPU particles in one frame[284]: BubbleP/Particle Emitter
+[2018.12.26-20.25.31:196][284]LogParticles: Warning: Spawning 33334 GPU particles in one frame[285]: BubbleP/Particle Emitter
+[2018.12.26-20.25.31:530][285]LogParticles: Warning: Spawning 33468 GPU particles in one frame[286]: BubbleP/Particle Emitter
+[2018.12.26-20.25.31:841][286]LogParticles: Warning: Spawning 33334 GPU particles in one frame[287]: BubbleP/Particle Emitter
+[2018.12.26-20.25.32:200][287]LogParticles: Warning: Spawning 33334 GPU particles in one frame[288]: BubbleP/Particle Emitter
+[2018.12.26-20.25.32:509][288]LogParticles: Warning: Spawning 33333 GPU particles in one frame[289]: BubbleP/Particle Emitter
+[2018.12.26-20.25.32:852][289]LogParticles: Warning: Spawning 33336 GPU particles in one frame[290]: BubbleP/Particle Emitter
+[2018.12.26-20.25.33:173][290]LogParticles: Warning: Spawning 33334 GPU particles in one frame[291]: BubbleP/Particle Emitter
+[2018.12.26-20.25.33:508][291]LogParticles: Warning: Spawning 33333 GPU particles in one frame[292]: BubbleP/Particle Emitter
+[2018.12.26-20.25.33:841][292]LogParticles: Warning: Spawning 33334 GPU particles in one frame[293]: BubbleP/Particle Emitter
+[2018.12.26-20.25.34:175][293]LogParticles: Warning: Spawning 33337 GPU particles in one frame[294]: BubbleP/Particle Emitter
+[2018.12.26-20.25.34:510][294]LogParticles: Warning: Spawning 33333 GPU particles in one frame[295]: BubbleP/Particle Emitter
+[2018.12.26-20.25.34:868][295]LogParticles: Warning: Spawning 33334 GPU particles in one frame[296]: BubbleP/Particle Emitter
+[2018.12.26-20.25.35:187][296]LogParticles: Warning: Spawning 33334 GPU particles in one frame[297]: BubbleP/Particle Emitter
+[2018.12.26-20.25.35:534][297]LogParticles: Warning: Spawning 33333 GPU particles in one frame[298]: BubbleP/Particle Emitter
+[2018.12.26-20.25.35:848][298]LogParticles: Warning: Spawning 33334 GPU particles in one frame[299]: BubbleP/Particle Emitter
+[2018.12.26-20.25.36:202][299]LogParticles: Warning: Spawning 33334 GPU particles in one frame[300]: BubbleP/Particle Emitter
+[2018.12.26-20.25.36:533][300]LogParticles: Warning: Spawning 33334 GPU particles in one frame[301]: BubbleP/Particle Emitter
+[2018.12.26-20.25.36:838][301]LogParticles: Warning: Spawning 33334 GPU particles in one frame[302]: BubbleP/Particle Emitter
+[2018.12.26-20.25.37:186][302]LogParticles: Warning: Spawning 33333 GPU particles in one frame[303]: BubbleP/Particle Emitter
+[2018.12.26-20.25.37:519][303]LogParticles: Warning: Spawning 33333 GPU particles in one frame[304]: BubbleP/Particle Emitter
+[2018.12.26-20.25.37:837][304]LogParticles: Warning: Spawning 33334 GPU particles in one frame[305]: BubbleP/Particle Emitter
+[2018.12.26-20.25.38:184][305]LogParticles: Warning: Spawning 33334 GPU particles in one frame[306]: BubbleP/Particle Emitter
+[2018.12.26-20.25.38:530][306]LogParticles: Warning: Spawning 33334 GPU particles in one frame[307]: BubbleP/Particle Emitter
+[2018.12.26-20.25.38:859][307]LogParticles: Warning: Spawning 33334 GPU particles in one frame[308]: BubbleP/Particle Emitter
+[2018.12.26-20.25.39:197][308]LogParticles: Warning: Spawning 33334 GPU particles in one frame[309]: BubbleP/Particle Emitter
+[2018.12.26-20.25.39:532][309]LogParticles: Warning: Spawning 33333 GPU particles in one frame[310]: BubbleP/Particle Emitter
+[2018.12.26-20.25.39:852][310]LogParticles: Warning: Spawning 33334 GPU particles in one frame[311]: BubbleP/Particle Emitter
+[2018.12.26-20.25.40:172][311]LogParticles: Warning: Spawning 33334 GPU particles in one frame[312]: BubbleP/Particle Emitter
+[2018.12.26-20.25.40:521][312]LogParticles: Warning: Spawning 33333 GPU particles in one frame[313]: BubbleP/Particle Emitter
+[2018.12.26-20.25.40:838][313]LogParticles: Warning: Spawning 33334 GPU particles in one frame[314]: BubbleP/Particle Emitter
+[2018.12.26-20.25.41:171][314]LogParticles: Warning: Spawning 33333 GPU particles in one frame[315]: BubbleP/Particle Emitter
+[2018.12.26-20.25.41:535][315]LogParticles: Warning: Spawning 33334 GPU particles in one frame[316]: BubbleP/Particle Emitter
+[2018.12.26-20.25.41:845][316]LogParticles: Warning: Spawning 33333 GPU particles in one frame[317]: BubbleP/Particle Emitter
+[2018.12.26-20.25.42:172][317]LogParticles: Warning: Spawning 33334 GPU particles in one frame[318]: BubbleP/Particle Emitter
+[2018.12.26-20.25.42:507][318]LogParticles: Warning: Spawning 33334 GPU particles in one frame[319]: BubbleP/Particle Emitter
+[2018.12.26-20.25.42:876][319]LogParticles: Warning: Spawning 33333 GPU particles in one frame[320]: BubbleP/Particle Emitter
+[2018.12.26-20.25.43:180][320]LogParticles: Warning: Spawning 33333 GPU particles in one frame[321]: BubbleP/Particle Emitter
+[2018.12.26-20.25.43:526][321]LogParticles: Warning: Spawning 33334 GPU particles in one frame[322]: BubbleP/Particle Emitter
+[2018.12.26-20.25.43:842][322]LogParticles: Warning: Spawning 33334 GPU particles in one frame[323]: BubbleP/Particle Emitter
+[2018.12.26-20.25.44:190][323]LogParticles: Warning: Spawning 33333 GPU particles in one frame[324]: BubbleP/Particle Emitter
+[2018.12.26-20.25.44:534][324]LogParticles: Warning: Spawning 33334 GPU particles in one frame[325]: BubbleP/Particle Emitter
+[2018.12.26-20.25.44:864][325]LogParticles: Warning: Spawning 33353 GPU particles in one frame[326]: BubbleP/Particle Emitter
+[2018.12.26-20.25.45:178][326]LogParticles: Warning: Spawning 33334 GPU particles in one frame[327]: BubbleP/Particle Emitter
+[2018.12.26-20.25.45:509][327]LogParticles: Warning: Spawning 33333 GPU particles in one frame[328]: BubbleP/Particle Emitter
+[2018.12.26-20.25.45:841][328]LogParticles: Warning: Spawning 33334 GPU particles in one frame[329]: BubbleP/Particle Emitter
+[2018.12.26-20.25.46:210][329]LogParticles: Warning: Spawning 33334 GPU particles in one frame[330]: BubbleP/Particle Emitter
+[2018.12.26-20.25.46:527][330]LogParticles: Warning: Spawning 33343 GPU particles in one frame[331]: BubbleP/Particle Emitter
+[2018.12.26-20.25.46:850][331]LogParticles: Warning: Spawning 33333 GPU particles in one frame[332]: BubbleP/Particle Emitter
+[2018.12.26-20.25.47:173][332]LogParticles: Warning: Spawning 33334 GPU particles in one frame[333]: BubbleP/Particle Emitter
+[2018.12.26-20.25.47:504][333]LogParticles: Warning: Spawning 33333 GPU particles in one frame[334]: BubbleP/Particle Emitter
+[2018.12.26-20.25.47:860][334]LogParticles: Warning: Spawning 33334 GPU particles in one frame[335]: BubbleP/Particle Emitter
+[2018.12.26-20.25.48:194][335]LogParticles: Warning: Spawning 33334 GPU particles in one frame[336]: BubbleP/Particle Emitter
+[2018.12.26-20.25.48:505][336]LogParticles: Warning: Spawning 33334 GPU particles in one frame[337]: BubbleP/Particle Emitter
+[2018.12.26-20.25.48:876][337]LogParticles: Warning: Spawning 33333 GPU particles in one frame[338]: BubbleP/Particle Emitter
+[2018.12.26-20.25.49:194][338]LogParticles: Warning: Spawning 33334 GPU particles in one frame[339]: BubbleP/Particle Emitter
+[2018.12.26-20.25.49:536][339]LogParticles: Warning: Spawning 33334 GPU particles in one frame[340]: BubbleP/Particle Emitter
+[2018.12.26-20.25.49:850][340]LogParticles: Warning: Spawning 33333 GPU particles in one frame[341]: BubbleP/Particle Emitter
+[2018.12.26-20.25.50:199][341]LogParticles: Warning: Spawning 33334 GPU particles in one frame[342]: BubbleP/Particle Emitter
+[2018.12.26-20.25.50:517][342]LogParticles: Warning: Spawning 33333 GPU particles in one frame[343]: BubbleP/Particle Emitter
+[2018.12.26-20.25.50:849][343]LogParticles: Warning: Spawning 33334 GPU particles in one frame[344]: BubbleP/Particle Emitter
+[2018.12.26-20.25.51:196][344]LogParticles: Warning: Spawning 33333 GPU particles in one frame[345]: BubbleP/Particle Emitter
+[2018.12.26-20.25.51:529][345]LogParticles: Warning: Spawning 33334 GPU particles in one frame[346]: BubbleP/Particle Emitter
+[2018.12.26-20.25.51:857][346]LogParticles: Warning: Spawning 33334 GPU particles in one frame[347]: BubbleP/Particle Emitter
+[2018.12.26-20.25.52:178][347]LogParticles: Warning: Spawning 33333 GPU particles in one frame[348]: BubbleP/Particle Emitter
+[2018.12.26-20.25.52:514][348]LogParticles: Warning: Spawning 33334 GPU particles in one frame[349]: BubbleP/Particle Emitter
+[2018.12.26-20.25.52:870][349]LogParticles: Warning: Spawning 33334 GPU particles in one frame[350]: BubbleP/Particle Emitter
+[2018.12.26-20.25.53:180][350]LogParticles: Warning: Spawning 33333 GPU particles in one frame[351]: BubbleP/Particle Emitter
+[2018.12.26-20.25.53:522][351]LogParticles: Warning: Spawning 33340 GPU particles in one frame[352]: BubbleP/Particle Emitter
+[2018.12.26-20.25.53:866][352]LogParticles: Warning: Spawning 33334 GPU particles in one frame[353]: BubbleP/Particle Emitter
+[2018.12.26-20.25.54:191][353]LogParticles: Warning: Spawning 33333 GPU particles in one frame[354]: BubbleP/Particle Emitter
+[2018.12.26-20.25.54:529][354]LogParticles: Warning: Spawning 33334 GPU particles in one frame[355]: BubbleP/Particle Emitter
+[2018.12.26-20.25.54:848][355]LogParticles: Warning: Spawning 33334 GPU particles in one frame[356]: BubbleP/Particle Emitter
+[2018.12.26-20.25.55:207][356]LogParticles: Warning: Spawning 33333 GPU particles in one frame[357]: BubbleP/Particle Emitter
+[2018.12.26-20.25.55:543][357]LogParticles: Warning: Spawning 33334 GPU particles in one frame[358]: BubbleP/Particle Emitter
+[2018.12.26-20.25.55:855][358]LogParticles: Warning: Spawning 33337 GPU particles in one frame[359]: BubbleP/Particle Emitter
+[2018.12.26-20.25.56:175][359]LogParticles: Warning: Spawning 33333 GPU particles in one frame[360]: BubbleP/Particle Emitter
+[2018.12.26-20.25.56:539][360]LogParticles: Warning: Spawning 33334 GPU particles in one frame[361]: BubbleP/Particle Emitter
+[2018.12.26-20.25.56:861][361]LogParticles: Warning: Spawning 33334 GPU particles in one frame[362]: BubbleP/Particle Emitter
+[2018.12.26-20.25.57:192][362]LogParticles: Warning: Spawning 33423 GPU particles in one frame[363]: BubbleP/Particle Emitter
+[2018.12.26-20.25.57:527][363]LogParticles: Warning: Spawning 33363 GPU particles in one frame[364]: BubbleP/Particle Emitter
+[2018.12.26-20.25.57:852][364]LogParticles: Warning: Spawning 33338 GPU particles in one frame[365]: BubbleP/Particle Emitter
+[2018.12.26-20.25.58:194][365]LogParticles: Warning: Spawning 33334 GPU particles in one frame[366]: BubbleP/Particle Emitter
+[2018.12.26-20.25.58:535][366]LogParticles: Warning: Spawning 33333 GPU particles in one frame[367]: BubbleP/Particle Emitter
+[2018.12.26-20.25.58:841][367]LogParticles: Warning: Spawning 33337 GPU particles in one frame[368]: BubbleP/Particle Emitter
+[2018.12.26-20.25.59:198][368]LogParticles: Warning: Spawning 33335 GPU particles in one frame[369]: BubbleP/Particle Emitter
+[2018.12.26-20.25.59:533][369]LogParticles: Warning: Spawning 33337 GPU particles in one frame[370]: BubbleP/Particle Emitter
+[2018.12.26-20.25.59:856][370]LogParticles: Warning: Spawning 33434 GPU particles in one frame[371]: BubbleP/Particle Emitter
+[2018.12.26-20.26.00:175][371]LogParticles: Warning: Spawning 33333 GPU particles in one frame[372]: BubbleP/Particle Emitter
+[2018.12.26-20.26.00:534][372]LogParticles: Warning: Spawning 33334 GPU particles in one frame[373]: BubbleP/Particle Emitter
+[2018.12.26-20.26.00:843][373]LogParticles: Warning: Spawning 33334 GPU particles in one frame[374]: BubbleP/Particle Emitter
+[2018.12.26-20.26.01:204][374]LogParticles: Warning: Spawning 33334 GPU particles in one frame[375]: BubbleP/Particle Emitter
+[2018.12.26-20.26.01:540][375]LogParticles: Warning: Spawning 33333 GPU particles in one frame[376]: BubbleP/Particle Emitter
+[2018.12.26-20.26.01:856][376]LogParticles: Warning: Spawning 33334 GPU particles in one frame[377]: BubbleP/Particle Emitter
+[2018.12.26-20.26.02:176][377]LogParticles: Warning: Spawning 33334 GPU particles in one frame[378]: BubbleP/Particle Emitter
+[2018.12.26-20.26.02:533][378]LogParticles: Warning: Spawning 33333 GPU particles in one frame[379]: BubbleP/Particle Emitter
+[2018.12.26-20.26.02:848][379]LogParticles: Warning: Spawning 33334 GPU particles in one frame[380]: BubbleP/Particle Emitter
+[2018.12.26-20.26.03:201][380]LogParticles: Warning: Spawning 33334 GPU particles in one frame[381]: BubbleP/Particle Emitter
+[2018.12.26-20.26.03:520][381]LogParticles: Warning: Spawning 33361 GPU particles in one frame[382]: BubbleP/Particle Emitter
+[2018.12.26-20.26.03:866][382]LogParticles: Warning: Spawning 33334 GPU particles in one frame[383]: BubbleP/Particle Emitter
+[2018.12.26-20.26.04:178][383]LogParticles: Warning: Spawning 33334 GPU particles in one frame[384]: BubbleP/Particle Emitter
+[2018.12.26-20.26.04:558][384]LogParticles: Warning: Spawning 35941 GPU particles in one frame[385]: BubbleP/Particle Emitter
+[2018.12.26-20.26.04:870][385]LogParticles: Warning: Spawning 33333 GPU particles in one frame[386]: BubbleP/Particle Emitter
+[2018.12.26-20.26.05:202][386]LogParticles: Warning: Spawning 33334 GPU particles in one frame[387]: BubbleP/Particle Emitter
+[2018.12.26-20.26.05:550][387]LogParticles: Warning: Spawning 33333 GPU particles in one frame[388]: BubbleP/Particle Emitter
+[2018.12.26-20.26.05:881][388]LogParticles: Warning: Spawning 33334 GPU particles in one frame[389]: BubbleP/Particle Emitter
+[2018.12.26-20.26.06:205][389]LogParticles: Warning: Spawning 33334 GPU particles in one frame[390]: BubbleP/Particle Emitter
+[2018.12.26-20.26.06:535][390]LogParticles: Warning: Spawning 33333 GPU particles in one frame[391]: BubbleP/Particle Emitter
+[2018.12.26-20.26.06:886][391]LogParticles: Warning: Spawning 33334 GPU particles in one frame[392]: BubbleP/Particle Emitter
+[2018.12.26-20.26.07:211][392]LogParticles: Warning: Spawning 33333 GPU particles in one frame[393]: BubbleP/Particle Emitter
+[2018.12.26-20.26.07:539][393]LogParticles: Warning: Spawning 33334 GPU particles in one frame[394]: BubbleP/Particle Emitter
+[2018.12.26-20.26.07:873][394]LogParticles: Warning: Spawning 33334 GPU particles in one frame[395]: BubbleP/Particle Emitter
+[2018.12.26-20.26.08:209][395]LogParticles: Warning: Spawning 33333 GPU particles in one frame[396]: BubbleP/Particle Emitter
+[2018.12.26-20.26.08:561][396]LogParticles: Warning: Spawning 33334 GPU particles in one frame[397]: BubbleP/Particle Emitter
+[2018.12.26-20.26.08:866][397]LogParticles: Warning: Spawning 33333 GPU particles in one frame[398]: BubbleP/Particle Emitter
+[2018.12.26-20.26.09:239][398]LogParticles: Warning: Spawning 33334 GPU particles in one frame[399]: BubbleP/Particle Emitter
+[2018.12.26-20.26.09:544][399]LogParticles: Warning: Spawning 33333 GPU particles in one frame[400]: BubbleP/Particle Emitter
+[2018.12.26-20.26.09:883][400]LogParticles: Warning: Spawning 33334 GPU particles in one frame[401]: BubbleP/Particle Emitter
+[2018.12.26-20.26.10:216][401]LogParticles: Warning: Spawning 33333 GPU particles in one frame[402]: BubbleP/Particle Emitter
+[2018.12.26-20.26.10:537][402]LogParticles: Warning: Spawning 33334 GPU particles in one frame[403]: BubbleP/Particle Emitter
+[2018.12.26-20.26.10:878][403]LogParticles: Warning: Spawning 33333 GPU particles in one frame[404]: BubbleP/Particle Emitter
+[2018.12.26-20.26.11:201][404]LogParticles: Warning: Spawning 33334 GPU particles in one frame[405]: BubbleP/Particle Emitter
+[2018.12.26-20.26.11:545][405]LogParticles: Warning: Spawning 33333 GPU particles in one frame[406]: BubbleP/Particle Emitter
+[2018.12.26-20.26.11:877][406]LogParticles: Warning: Spawning 33334 GPU particles in one frame[407]: BubbleP/Particle Emitter
+[2018.12.26-20.26.12:200][407]LogParticles: Warning: Spawning 33334 GPU particles in one frame[408]: BubbleP/Particle Emitter
+[2018.12.26-20.26.12:535][408]LogParticles: Warning: Spawning 33333 GPU particles in one frame[409]: BubbleP/Particle Emitter
+[2018.12.26-20.26.12:883][409]LogParticles: Warning: Spawning 33334 GPU particles in one frame[410]: BubbleP/Particle Emitter
+[2018.12.26-20.26.13:209][410]LogParticles: Warning: Spawning 33333 GPU particles in one frame[411]: BubbleP/Particle Emitter
+[2018.12.26-20.26.13:541][411]LogParticles: Warning: Spawning 33334 GPU particles in one frame[412]: BubbleP/Particle Emitter
+[2018.12.26-20.26.13:867][412]LogParticles: Warning: Spawning 33334 GPU particles in one frame[413]: BubbleP/Particle Emitter
+[2018.12.26-20.26.14:236][413]LogParticles: Warning: Spawning 33334 GPU particles in one frame[414]: BubbleP/Particle Emitter
+[2018.12.26-20.26.14:572][414]LogParticles: Warning: Spawning 33333 GPU particles in one frame[415]: BubbleP/Particle Emitter
+[2018.12.26-20.26.14:871][415]LogParticles: Warning: Spawning 33334 GPU particles in one frame[416]: BubbleP/Particle Emitter
+[2018.12.26-20.26.15:203][416]LogParticles: Warning: Spawning 33333 GPU particles in one frame[417]: BubbleP/Particle Emitter
+[2018.12.26-20.26.15:560][417]LogParticles: Warning: Spawning 33334 GPU particles in one frame[418]: BubbleP/Particle Emitter
+[2018.12.26-20.26.15:890][418]LogParticles: Warning: Spawning 33334 GPU particles in one frame[419]: BubbleP/Particle Emitter
+[2018.12.26-20.26.16:203][419]LogParticles: Warning: Spawning 33334 GPU particles in one frame[420]: BubbleP/Particle Emitter
+[2018.12.26-20.26.16:537][420]LogParticles: Warning: Spawning 33333 GPU particles in one frame[421]: BubbleP/Particle Emitter
+[2018.12.26-20.26.16:869][421]LogParticles: Warning: Spawning 33334 GPU particles in one frame[422]: BubbleP/Particle Emitter
+[2018.12.26-20.26.17:214][422]LogParticles: Warning: Spawning 33334 GPU particles in one frame[423]: BubbleP/Particle Emitter
+[2018.12.26-20.26.17:533][423]LogParticles: Warning: Spawning 33333 GPU particles in one frame[424]: BubbleP/Particle Emitter
+[2018.12.26-20.26.17:876][424]LogParticles: Warning: Spawning 33334 GPU particles in one frame[425]: BubbleP/Particle Emitter
+[2018.12.26-20.26.18:227][425]LogParticles: Warning: Spawning 33334 GPU particles in one frame[426]: BubbleP/Particle Emitter
+[2018.12.26-20.26.18:538][426]LogParticles: Warning: Spawning 33333 GPU particles in one frame[427]: BubbleP/Particle Emitter
+[2018.12.26-20.26.18:865][427]LogParticles: Warning: Spawning 33334 GPU particles in one frame[428]: BubbleP/Particle Emitter
+[2018.12.26-20.26.19:234][428]LogParticles: Warning: Spawning 33333 GPU particles in one frame[429]: BubbleP/Particle Emitter
+[2018.12.26-20.26.19:536][429]LogParticles: Warning: Spawning 33334 GPU particles in one frame[430]: BubbleP/Particle Emitter
+[2018.12.26-20.26.19:887][430]LogParticles: Warning: Spawning 33357 GPU particles in one frame[431]: BubbleP/Particle Emitter
+[2018.12.26-20.26.20:230][431]LogParticles: Warning: Spawning 33336 GPU particles in one frame[432]: BubbleP/Particle Emitter
+[2018.12.26-20.26.20:546][432]LogParticles: Warning: Spawning 33334 GPU particles in one frame[433]: BubbleP/Particle Emitter
+[2018.12.26-20.26.20:868][433]LogParticles: Warning: Spawning 33333 GPU particles in one frame[434]: BubbleP/Particle Emitter
+[2018.12.26-20.26.21:236][434]LogParticles: Warning: Spawning 33334 GPU particles in one frame[435]: BubbleP/Particle Emitter
+[2018.12.26-20.26.21:542][435]LogParticles: Warning: Spawning 33334 GPU particles in one frame[436]: BubbleP/Particle Emitter
+[2018.12.26-20.26.21:876][436]LogParticles: Warning: Spawning 33333 GPU particles in one frame[437]: BubbleP/Particle Emitter
+[2018.12.26-20.26.22:203][437]LogParticles: Warning: Spawning 33334 GPU particles in one frame[438]: BubbleP/Particle Emitter
+[2018.12.26-20.26.22:546][438]LogParticles: Warning: Spawning 33333 GPU particles in one frame[439]: BubbleP/Particle Emitter
+[2018.12.26-20.26.22:867][439]LogParticles: Warning: Spawning 33334 GPU particles in one frame[440]: BubbleP/Particle Emitter
+[2018.12.26-20.26.23:208][440]LogParticles: Warning: Spawning 33333 GPU particles in one frame[441]: BubbleP/Particle Emitter
+[2018.12.26-20.26.23:633][441]LogParticles: Warning: Spawning 40000 GPU particles in one frame[442]: BubbleP/Particle Emitter
+[2018.12.26-20.26.23:945][442]LogParticles: Warning: Spawning 33334 GPU particles in one frame[443]: BubbleP/Particle Emitter
+[2018.12.26-20.26.24:278][443]LogParticles: Warning: Spawning 33334 GPU particles in one frame[444]: BubbleP/Particle Emitter
+[2018.12.26-20.26.24:626][444]LogParticles: Warning: Spawning 33334 GPU particles in one frame[445]: BubbleP/Particle Emitter
+[2018.12.26-20.26.24:941][445]LogParticles: Warning: Spawning 33334 GPU particles in one frame[446]: BubbleP/Particle Emitter
+[2018.12.26-20.26.25:304][446]LogParticles: Warning: Spawning 33333 GPU particles in one frame[447]: BubbleP/Particle Emitter
+[2018.12.26-20.26.25:618][447]LogParticles: Warning: Spawning 33334 GPU particles in one frame[448]: BubbleP/Particle Emitter
+[2018.12.26-20.26.25:982][448]LogParticles: Warning: Spawning 33333 GPU particles in one frame[449]: BubbleP/Particle Emitter
+[2018.12.26-20.26.26:303][449]LogParticles: Warning: Spawning 33366 GPU particles in one frame[450]: BubbleP/Particle Emitter
+[2018.12.26-20.26.26:624][450]LogParticles: Warning: Spawning 33333 GPU particles in one frame[451]: BubbleP/Particle Emitter
+[2018.12.26-20.26.26:946][451]LogParticles: Warning: Spawning 33333 GPU particles in one frame[452]: BubbleP/Particle Emitter
+[2018.12.26-20.26.27:272][452]LogParticles: Warning: Spawning 33334 GPU particles in one frame[453]: BubbleP/Particle Emitter
+[2018.12.26-20.26.27:633][453]LogParticles: Warning: Spawning 33334 GPU particles in one frame[454]: BubbleP/Particle Emitter
+[2018.12.26-20.26.27:967][454]LogParticles: Warning: Spawning 33333 GPU particles in one frame[455]: BubbleP/Particle Emitter
+[2018.12.26-20.26.28:285][455]LogParticles: Warning: Spawning 33334 GPU particles in one frame[456]: BubbleP/Particle Emitter
+[2018.12.26-20.26.28:605][456]LogParticles: Warning: Spawning 33334 GPU particles in one frame[457]: BubbleP/Particle Emitter
+[2018.12.26-20.26.28:980][457]LogParticles: Warning: Spawning 33333 GPU particles in one frame[458]: BubbleP/Particle Emitter
+[2018.12.26-20.26.29:280][458]LogParticles: Warning: Spawning 33334 GPU particles in one frame[459]: BubbleP/Particle Emitter
+[2018.12.26-20.26.29:626][459]LogParticles: Warning: Spawning 33334 GPU particles in one frame[460]: BubbleP/Particle Emitter
+[2018.12.26-20.26.29:951][460]LogParticles: Warning: Spawning 33334 GPU particles in one frame[461]: BubbleP/Particle Emitter
+[2018.12.26-20.26.30:290][461]LogParticles: Warning: Spawning 33334 GPU particles in one frame[462]: BubbleP/Particle Emitter
+[2018.12.26-20.26.30:636][462]LogParticles: Warning: Spawning 33334 GPU particles in one frame[463]: BubbleP/Particle Emitter
+[2018.12.26-20.26.30:946][463]LogParticles: Warning: Spawning 33333 GPU particles in one frame[464]: BubbleP/Particle Emitter
+[2018.12.26-20.26.31:301][464]LogParticles: Warning: Spawning 33334 GPU particles in one frame[465]: BubbleP/Particle Emitter
+[2018.12.26-20.26.31:629][465]LogParticles: Warning: Spawning 33334 GPU particles in one frame[466]: BubbleP/Particle Emitter
+[2018.12.26-20.26.31:965][466]LogParticles: Warning: Spawning 33362 GPU particles in one frame[467]: BubbleP/Particle Emitter
+[2018.12.26-20.26.32:272][467]LogParticles: Warning: Spawning 33333 GPU particles in one frame[468]: BubbleP/Particle Emitter
+[2018.12.26-20.26.32:644][468]LogParticles: Warning: Spawning 33334 GPU particles in one frame[469]: BubbleP/Particle Emitter
+[2018.12.26-20.26.32:960][469]LogParticles: Warning: Spawning 33334 GPU particles in one frame[470]: BubbleP/Particle Emitter
+[2018.12.26-20.26.33:273][470]LogParticles: Warning: Spawning 33333 GPU particles in one frame[471]: BubbleP/Particle Emitter
+[2018.12.26-20.26.33:606][471]LogParticles: Warning: Spawning 33334 GPU particles in one frame[472]: BubbleP/Particle Emitter
+[2018.12.26-20.26.33:941][472]LogParticles: Warning: Spawning 33334 GPU particles in one frame[473]: BubbleP/Particle Emitter
+[2018.12.26-20.26.34:292][473]LogParticles: Warning: Spawning 34371 GPU particles in one frame[474]: BubbleP/Particle Emitter
+[2018.12.26-20.26.34:619][474]LogParticles: Warning: Spawning 33334 GPU particles in one frame[475]: BubbleP/Particle Emitter
+[2018.12.26-20.26.34:975][475]LogParticles: Warning: Spawning 33333 GPU particles in one frame[476]: BubbleP/Particle Emitter
+[2018.12.26-20.26.35:289][476]LogParticles: Warning: Spawning 33334 GPU particles in one frame[477]: BubbleP/Particle Emitter
+[2018.12.26-20.26.35:650][477]LogParticles: Warning: Spawning 33333 GPU particles in one frame[478]: BubbleP/Particle Emitter
+[2018.12.26-20.26.35:984][478]LogParticles: Warning: Spawning 33334 GPU particles in one frame[479]: BubbleP/Particle Emitter
+[2018.12.26-20.26.36:299][479]LogParticles: Warning: Spawning 33336 GPU particles in one frame[480]: BubbleP/Particle Emitter
+[2018.12.26-20.26.36:631][480]LogParticles: Warning: Spawning 33334 GPU particles in one frame[481]: BubbleP/Particle Emitter
+[2018.12.26-20.26.36:973][481]LogParticles: Warning: Spawning 33334 GPU particles in one frame[482]: BubbleP/Particle Emitter
+[2018.12.26-20.26.37:320][482]LogParticles: Warning: Spawning 33333 GPU particles in one frame[483]: BubbleP/Particle Emitter
+[2018.12.26-20.26.37:626][483]LogParticles: Warning: Spawning 33334 GPU particles in one frame[484]: BubbleP/Particle Emitter
+[2018.12.26-20.26.37:973][484]LogParticles: Warning: Spawning 33333 GPU particles in one frame[485]: BubbleP/Particle Emitter
+[2018.12.26-20.26.38:313][485]LogParticles: Warning: Spawning 33334 GPU particles in one frame[486]: BubbleP/Particle Emitter
+[2018.12.26-20.26.38:624][486]LogParticles: Warning: Spawning 33334 GPU particles in one frame[487]: BubbleP/Particle Emitter
+[2018.12.26-20.26.38:959][487]LogParticles: Warning: Spawning 33333 GPU particles in one frame[488]: BubbleP/Particle Emitter
+[2018.12.26-20.26.39:282][488]LogParticles: Warning: Spawning 33334 GPU particles in one frame[489]: BubbleP/Particle Emitter
+[2018.12.26-20.26.39:628][489]LogParticles: Warning: Spawning 33333 GPU particles in one frame[490]: BubbleP/Particle Emitter
+[2018.12.26-20.26.39:978][490]LogParticles: Warning: Spawning 33334 GPU particles in one frame[491]: BubbleP/Particle Emitter
+[2018.12.26-20.26.40:295][491]LogParticles: Warning: Spawning 33334 GPU particles in one frame[492]: BubbleP/Particle Emitter
+[2018.12.26-20.26.40:625][492]LogParticles: Warning: Spawning 33333 GPU particles in one frame[493]: BubbleP/Particle Emitter
+[2018.12.26-20.26.40:976][493]LogParticles: Warning: Spawning 33334 GPU particles in one frame[494]: BubbleP/Particle Emitter
+[2018.12.26-20.26.41:284][494]LogParticles: Warning: Spawning 33334 GPU particles in one frame[495]: BubbleP/Particle Emitter
+[2018.12.26-20.26.41:650][495]LogParticles: Warning: Spawning 33334 GPU particles in one frame[496]: BubbleP/Particle Emitter
+[2018.12.26-20.26.41:985][496]LogParticles: Warning: Spawning 33334 GPU particles in one frame[497]: BubbleP/Particle Emitter
+[2018.12.26-20.26.42:316][497]LogParticles: Warning: Spawning 33334 GPU particles in one frame[498]: BubbleP/Particle Emitter
+[2018.12.26-20.26.42:643][498]LogParticles: Warning: Spawning 33333 GPU particles in one frame[499]: BubbleP/Particle Emitter
+[2018.12.26-20.26.42:978][499]LogParticles: Warning: Spawning 33334 GPU particles in one frame[500]: BubbleP/Particle Emitter
+[2018.12.26-20.26.43:315][500]LogParticles: Warning: Spawning 33334 GPU particles in one frame[501]: BubbleP/Particle Emitter
+[2018.12.26-20.26.43:655][501]LogParticles: Warning: Spawning 33333 GPU particles in one frame[502]: BubbleP/Particle Emitter
+[2018.12.26-20.26.43:988][502]LogParticles: Warning: Spawning 33334 GPU particles in one frame[503]: BubbleP/Particle Emitter
+[2018.12.26-20.26.44:390][503]LogParticles: Warning: Spawning 40000 GPU particles in one frame[504]: BubbleP/Particle Emitter
+[2018.12.26-20.26.44:706][504]LogParticles: Warning: Spawning 33346 GPU particles in one frame[505]: BubbleP/Particle Emitter
+[2018.12.26-20.26.45:073][505]LogParticles: Warning: Spawning 33335 GPU particles in one frame[506]: BubbleP/Particle Emitter
+[2018.12.26-20.26.45:404][506]LogParticles: Warning: Spawning 33334 GPU particles in one frame[507]: BubbleP/Particle Emitter
+[2018.12.26-20.26.45:707][507]LogParticles: Warning: Spawning 33334 GPU particles in one frame[508]: BubbleP/Particle Emitter
+[2018.12.26-20.26.46:062][508]LogParticles: Warning: Spawning 33333 GPU particles in one frame[509]: BubbleP/Particle Emitter
+[2018.12.26-20.26.46:374][509]LogParticles: Warning: Spawning 33334 GPU particles in one frame[510]: BubbleP/Particle Emitter
+[2018.12.26-20.26.46:712][510]LogParticles: Warning: Spawning 33336 GPU particles in one frame[511]: BubbleP/Particle Emitter
+[2018.12.26-20.26.47:043][511]LogParticles: Warning: Spawning 33336 GPU particles in one frame[512]: BubbleP/Particle Emitter
+[2018.12.26-20.26.47:383][512]LogParticles: Warning: Spawning 33347 GPU particles in one frame[513]: BubbleP/Particle Emitter
+[2018.12.26-20.26.47:586][513]LogParticles: Warning: Spawning 23128 GPU particles in one frame[514]: BubbleP/Particle Emitter
+[2018.12.26-20.26.48:447][516]LogParticles: Warning: Spawning 40000 GPU particles in one frame[517]: BubbleP/Particle Emitter
+[2018.12.26-20.26.49:652][536]LogParticles: Warning: Spawning 40000 GPU particles in one frame[537]: BubbleP/Particle Emitter
+[2018.12.26-20.26.49:965][537]LogParticles: Warning: Spawning 40000 GPU particles in one frame[538]: BubbleP/Particle Emitter
+[2018.12.26-20.26.54:852][767]LogParticles: Warning: Failed to allocate tiles for BubbleP! 1977 new particles truncated to 627.
+[2018.12.26-20.26.54:870][768]LogParticles: Warning: Failed to allocate tiles for BubbleP! 1887 new particles truncated to 0.
+[2018.12.26-20.26.54:890][769]LogParticles: Warning: Failed to allocate tiles for BubbleP! 2027 new particles truncated to 0.
+[2018.12.26-20.27.00:264][ 23]LogParticles: Warning: Failed to allocate tiles for P_Blowing_Snow! 73 new particles truncated to 40.
+[2018.12.26-20.27.02:181][103]LogParticles: Warning: Spawning 21189 GPU particles in one frame[1104]: BubbleP/Particle Emitter
+[2018.12.26-20.27.05:581][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.26-20.27.06:360][262]LogSlate: Window 'OceanProject - Unreal Editor' being destroyed
+[2018.12.26-20.27.06:389][262]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.26-20.27.08:309][263]Cmd: QUIT_EDITOR
+[2018.12.26-20.27.08:927][263]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.26-20.27.08:936][263]LogExit: Preparing to exit.
+[2018.12.26-20.27.10:080][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Cesar/Desktop/OceanProject/Content/' was aborted.
+[2018.12.26-20.27.11:497][263]LogExit: Editor shut down
+[2018.12.26-20.27.11:511][263]LogExit: Transaction tracking system shut down
+[2018.12.26-20.27.11:513][263]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f2b47d7e0, Size=48
+[2018.12.26-20.27.11:545][263]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f5183c400, Size=248
+[2018.12.26-20.27.11:545][263]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f518c39d8, Size=8
+[2018.12.26-20.27.11:545][263]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f51702b00, Size=1264
+[2018.12.26-20.27.11:549][263]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f51076980, Size=368
+[2018.12.26-20.27.11:549][263]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f51622a40, Size=168
+[2018.12.26-20.27.11:549][263]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f51099400, Size=248
+[2018.12.26-20.27.11:553][263]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018f5371b000, Size=240
+[2018.12.26-20.27.12:021][263]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.12.26-20.27.12:021][263]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Cesar/Desktop/OceanProject/Content/' was aborted.
+[2018.12.26-20.27.12:022][263]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.12.26-20.27.12:022][263]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.12.26-20.27.12:022][263]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.12.26-20.27.12:022][263]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.12.26-20.27.12:022][263]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.12.26-20.27.12:022][263]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.12.26-20.27.15:580][263]LogExit: Object subsystem successfully closed.
+[2018.12.26-20.27.16:005][263]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.26-20.27.16:187][263]LogD3D11RHI: Shutdown
+[2018.12.26-20.27.16:187][263]LogD3D11RHI: CleanupD3DDevice
+[2018.12.26-20.27.16:271][263]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.26-20.27.17:198][263]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (584)
+[2018.12.26-20.27.17:199][263]LogModuleManager: Shutting down and abandoning module DesktopPlatform (582)
+[2018.12.26-20.27.17:204][263]LogModuleManager: Shutting down and abandoning module SceneOutliner (580)
+[2018.12.26-20.27.17:208][263]LogModuleManager: Shutting down and abandoning module AddContentDialog (578)
+[2018.12.26-20.27.17:221][263]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.12.26-20.27.17:224][263]LogModuleManager: Shutting down and abandoning module WidgetCarousel (577)
+[2018.12.26-20.27.17:224][263]LogModuleManager: Shutting down and abandoning module EditorWidgets (574)
+[2018.12.26-20.27.17:224][263]LogModuleManager: Shutting down and abandoning module CollectionManager (572)
+[2018.12.26-20.27.17:233][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Cesar/Desktop/OceanProject/Content/Collections/' was aborted.
+[2018.12.26-20.27.17:234][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Cesar/Desktop/OceanProject/Content/Developers/Cesar/Collections/' was aborted.
+[2018.12.26-20.27.17:234][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Cesar/Desktop/OceanProject/Saved/Collections/' was aborted.
+[2018.12.26-20.27.17:234][263]LogModuleManager: Shutting down and abandoning module StatsViewer (570)
+[2018.12.26-20.27.17:376][263]LogModuleManager: Shutting down and abandoning module FoliageEdit (568)
+[2018.12.26-20.27.17:376][263]LogModuleManager: Shutting down and abandoning module LandscapeEditor (566)
+[2018.12.26-20.27.17:404][263]LogModuleManager: Shutting down and abandoning module MeshPaintMode (564)
+[2018.12.26-20.27.17:409][263]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (562)
+[2018.12.26-20.27.17:409][263]LogModuleManager: Shutting down and abandoning module ActorPickerMode (560)
+[2018.12.26-20.27.17:409][263]LogModuleManager: Shutting down and abandoning module GeometryMode (558)
+[2018.12.26-20.27.17:418][263]LogModuleManager: Shutting down and abandoning module TextureAlignMode (556)
+[2018.12.26-20.27.17:418][263]LogModuleManager: Shutting down and abandoning module BspMode (554)
+[2018.12.26-20.27.17:418][263]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (552)
+[2018.12.26-20.27.17:418][263]LogModuleManager: Shutting down and abandoning module HardwareSurvey (550)
+[2018.12.26-20.27.17:418][263]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (548)
+[2018.12.26-20.27.17:428][263]LogModuleManager: Shutting down and abandoning module AutomationWorker (546)
+[2018.12.26-20.27.17:428][263]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (544)
+[2018.12.26-20.27.17:428][263]LogModuleManager: Shutting down and abandoning module SequenceRecorder (543)
+[2018.12.26-20.27.17:437][263]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (540)
+[2018.12.26-20.27.17:448][263]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (538)
+[2018.12.26-20.27.17:474][263]LogModuleManager: Shutting down and abandoning module PlacementMode (537)
+[2018.12.26-20.27.17:474][263]LogModuleManager: Shutting down and abandoning module MaterialEditor (536)
+[2018.12.26-20.27.17:511][263]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (532)
+[2018.12.26-20.27.17:511][263]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (530)
+[2018.12.26-20.27.17:511][263]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (528)
+[2018.12.26-20.27.17:524][263]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (526)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (524)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (522)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (520)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (518)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (516)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (514)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module CharacterAI (512)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module SmartSnapping (510)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module SessionServices (508)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module ViewportSnapping (506)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module ViewportInteraction (504)
+[2018.12.26-20.27.17:525][263]LogModuleManager: Shutting down and abandoning module ClothPainter (502)
+[2018.12.26-20.27.17:533][263]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (501)
+[2018.12.26-20.27.17:546][263]LogModuleManager: Shutting down and abandoning module LogVisualizer (498)
+[2018.12.26-20.27.17:591][263]LogModuleManager: Shutting down and abandoning module IntroTutorials (496)
+[2018.12.26-20.27.17:618][263]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (495)
+[2018.12.26-20.27.17:626][263]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (492)
+[2018.12.26-20.27.17:635][263]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (490)
+[2018.12.26-20.27.17:635][263]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (488)
+[2018.12.26-20.27.17:635][263]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (487)
+[2018.12.26-20.27.18:606][263]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (484)
+[2018.12.26-20.27.18:606][263]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (482)
+[2018.12.26-20.27.18:606][263]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (480)
+[2018.12.26-20.27.18:606][263]LogModuleManager: Shutting down and abandoning module InputBindingEditor (478)
+[2018.12.26-20.27.18:631][263]LogModuleManager: Shutting down and abandoning module MergeActors (476)
+[2018.12.26-20.27.18:634][263]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (474)
+[2018.12.26-20.27.18:640][263]LogModuleManager: Shutting down and abandoning module LocalizationService (473)
+[2018.12.26-20.27.18:650][263]LogModuleManager: Shutting down and abandoning module HardwareTargeting (470)
+[2018.12.26-20.27.18:650][263]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (468)
+[2018.12.26-20.27.18:657][263]LogModuleManager: Shutting down and abandoning module UndoHistory (466)
+[2018.12.26-20.27.18:657][263]LogModuleManager: Shutting down and abandoning module XmlParser (464)
+[2018.12.26-20.27.18:669][263]LogModuleManager: Shutting down and abandoning module Blutility (462)
+[2018.12.26-20.27.18:669][263]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (460)
+[2018.12.26-20.27.18:669][263]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (459)
+[2018.12.26-20.27.18:670][263]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (456)
+[2018.12.26-20.27.18:670][263]LogModuleManager: Shutting down and abandoning module SettingsEditor (454)
+[2018.12.26-20.27.18:719][263]LogModuleManager: Shutting down and abandoning module ProjectLauncher (452)
+[2018.12.26-20.27.18:731][263]LogModuleManager: Shutting down and abandoning module SessionFrontend (450)
+[2018.12.26-20.27.18:737][263]LogModuleManager: Shutting down and abandoning module ProfilerClient (448)
+[2018.12.26-20.27.18:753][263]LogModuleManager: Shutting down and abandoning module DeviceManager (446)
+[2018.12.26-20.27.18:756][263]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (445)
+[2018.12.26-20.27.18:810][263]LogModuleManager: Shutting down and abandoning module AutomationController (442)
+[2018.12.26-20.27.19:050][263]LogModuleManager: Shutting down and abandoning module AutomationWindow (440)
+[2018.12.26-20.27.19:260][263]LogModuleManager: Shutting down and abandoning module Layers (438)
+[2018.12.26-20.27.19:706][263]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (436)
+[2018.12.26-20.27.19:706][263]LogModuleManager: Shutting down and abandoning module DetailCustomizations (434)
+[2018.12.26-20.27.19:736][263]LogModuleManager: Shutting down and abandoning module PackagesDialog (432)
+[2018.12.26-20.27.19:801][263]LogModuleManager: Shutting down and abandoning module Persona (430)
+[2018.12.26-20.27.20:486][263]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (429)
+[2018.12.26-20.27.20:486][263]LogModuleManager: Shutting down and abandoning module AnimGraph (427)
+[2018.12.26-20.27.20:487][263]LogModuleManager: Shutting down and abandoning module Kismet (424)
+[2018.12.26-20.27.20:674][263]LogModuleManager: Shutting down and abandoning module GraphEditor (422)
+[2018.12.26-20.27.21:224][263]LogModuleManager: Shutting down and abandoning module ClassViewer (420)
+[2018.12.26-20.27.21:225][263]LogModuleManager: Shutting down and abandoning module Toolbox (418)
+[2018.12.26-20.27.21:225][263]LogModuleManager: Shutting down and abandoning module ModuleUI (416)
+[2018.12.26-20.27.21:429][263]LogModuleManager: Shutting down and abandoning module MovieSceneTools (414)
+[2018.12.26-20.27.21:615][263]LogModuleManager: Shutting down and abandoning module OutputLog (412)
+[2018.12.26-20.27.21:643][263]LogModuleManager: Shutting down and abandoning module GammaUI (410)
+[2018.12.26-20.27.21:686][263]LogModuleManager: Shutting down and abandoning module Documentation (408)
+[2018.12.26-20.27.21:686][263]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (406)
+[2018.12.26-20.27.21:686][263]LogModuleManager: Shutting down and abandoning module MovieScene (404)
+[2018.12.26-20.27.21:686][263]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (402)
+[2018.12.26-20.27.21:686][263]LogModuleManager: Shutting down and abandoning module LauncherPlatform (400)
+[2018.12.26-20.27.21:686][263]LogModuleManager: Shutting down and abandoning module AnalyticsET (398)
+[2018.12.26-20.27.21:687][263]LogModuleManager: Shutting down and abandoning module PortalServices (396)
+[2018.12.26-20.27.21:687][263]LogModuleManager: Shutting down and abandoning module PortalRpc (394)
+[2018.12.26-20.27.21:687][263]LogModuleManager: Shutting down and abandoning module MessagingRpc (392)
+[2018.12.26-20.27.21:687][263]LogModuleManager: Shutting down and abandoning module AIModule (390)
+[2018.12.26-20.27.21:687][263]LogModuleManager: Shutting down and abandoning module GameplayDebugger (389)
+[2018.12.26-20.27.21:767][263]LogModuleManager: Shutting down and abandoning module AITestSuite (387)
+[2018.12.26-20.27.22:011][263]LogModuleManager: Shutting down and abandoning module ProfilerService (384)
+[2018.12.26-20.27.22:200][263]LogModuleManager: Shutting down and abandoning module TaskGraph (382)
+[2018.12.26-20.27.22:637][263]LogModuleManager: Shutting down and abandoning module ROSIntegration (380)
+[2018.12.26-20.27.22:702][263]LogModuleManager: Shutting down and abandoning module OceanPlugin (378)
+[2018.12.26-20.27.22:769][263]LogModuleManager: Shutting down and abandoning module SteamVRController (376)
+[2018.12.26-20.27.22:769][263]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (374)
+[2018.12.26-20.27.22:770][263]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (372)
+[2018.12.26-20.27.22:788][263]LogModuleManager: Shutting down and abandoning module OculusInput (370)
+[2018.12.26-20.27.22:879][263]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (368)
+[2018.12.26-20.27.22:879][263]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (366)
+[2018.12.26-20.27.22:879][263]LogModuleManager: Shutting down and abandoning module CableComponent (364)
+[2018.12.26-20.27.23:520][263]LogModuleManager: Shutting down and abandoning module AudioCapture (362)
+[2018.12.26-20.27.23:520][263]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (360)
+[2018.12.26-20.27.23:520][263]LogModuleManager: Shutting down and abandoning module AndroidPermission (358)
+[2018.12.26-20.27.23:520][263]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (354)
+[2018.12.26-20.27.23:520][263]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (352)
+[2018.12.26-20.27.23:800][263]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (350)
+[2018.12.26-20.27.23:800][263]LogModuleManager: Shutting down and abandoning module MediaCompositing (348)
+[2018.12.26-20.27.23:800][263]LogModuleManager: Shutting down and abandoning module LinearTimecode (346)
+[2018.12.26-20.27.23:800][263]LogModuleManager: Shutting down and abandoning module ImgMedia (344)
+[2018.12.26-20.27.23:881][263]LogModuleManager: Shutting down and abandoning module HTML5Networking (342)
+[2018.12.26-20.27.23:881][263]LogModuleManager: Shutting down and abandoning module AlembicImporter (340)
+[2018.12.26-20.27.23:944][263]LogModuleManager: Shutting down and abandoning module AlembicLibrary (339)
+[2018.12.26-20.27.23:944][263]LogModuleManager: Shutting down and abandoning module GeometryCache (338)
+[2018.12.26-20.27.23:944][263]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (337)
+[2018.12.26-20.27.23:945][263]LogModuleManager: Shutting down and abandoning module DatasmithContent (332)
+[2018.12.26-20.27.23:945][263]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (330)
+[2018.12.26-20.27.23:945][263]LogModuleManager: Shutting down and abandoning module PluginBrowser (328)
+[2018.12.26-20.27.24:857][263]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (326)
+[2018.12.26-20.27.25:022][263]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (324)
+[2018.12.26-20.27.25:352][263]LogModuleManager: Shutting down and abandoning module CryptoKeys (322)
+[2018.12.26-20.27.25:352][263]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (320)
+[2018.12.26-20.27.25:352][263]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (318)
+[2018.12.26-20.27.25:352][263]LogModuleManager: Shutting down and abandoning module UObjectPlugin (316)
+[2018.12.26-20.27.25:352][263]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (314)
+[2018.12.26-20.27.25:729][263]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (312)
+[2018.12.26-20.27.25:926][263]LogModuleManager: Shutting down and abandoning module GitSourceControl (310)
+[2018.12.26-20.27.26:073][263]LogModuleManager: Shutting down and abandoning module SourceControl (309)
+[2018.12.26-20.27.26:354][263]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (306)
+[2018.12.26-20.27.26:588][263]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2018.12.26-20.27.26:588][263]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2018.12.26-20.27.26:588][263]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2018.12.26-20.27.26:589][263]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2018.12.26-20.27.26:930][263]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2018.12.26-20.27.26:987][263]LogModuleManager: Shutting down and abandoning module OceanProject (294)
+[2018.12.26-20.27.26:987][263]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2018.12.26-20.27.26:987][263]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2018.12.26-20.27.26:987][263]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2018.12.26-20.27.26:988][263]LogModuleManager: Shutting down and abandoning module OculusEditor (286)
+[2018.12.26-20.27.26:988][263]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (284)
+[2018.12.26-20.27.26:988][263]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (282)
+[2018.12.26-20.27.26:988][263]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (280)
+[2018.12.26-20.27.27:136][263]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (278)
+[2018.12.26-20.27.27:196][263]LogModuleManager: Shutting down and abandoning module ApexDestruction (276)
+[2018.12.26-20.27.27:251][263]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.12.26-20.27.27:251][263]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.12.26-20.27.27:563][263]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.12.26-20.27.27:858][263]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.12.26-20.27.27:941][263]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.12.26-20.27.27:941][263]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.12.26-20.27.27:941][263]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.12.26-20.27.27:988][263]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.12.26-20.27.28:023][263]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.12.26-20.27.28:064][263]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.12.26-20.27.28:098][263]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.12.26-20.27.28:098][263]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.12.26-20.27.28:098][263]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.12.26-20.27.28:132][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Cesar/Desktop/OceanProject/Binaries/Win64' was aborted.
+[2018.12.26-20.27.28:133][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Cesar/Desktop/OceanProject/Plugins/OceanPlugin/Binaries/Win64' was aborted.
+[2018.12.26-20.27.28:133][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Cesar/Desktop/OceanProject/Plugins/ROSIntegration/Binaries/Win64' was aborted.
+[2018.12.26-20.27.28:167][263]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.12.26-20.27.28:171][263]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.12.26-20.27.28:202][263]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.12.26-20.27.28:202][263]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.12.26-20.27.28:238][263]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.12.26-20.27.28:260][263]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.12.26-20.27.28:280][263]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.12.26-20.27.28:310][263]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.12.26-20.27.28:641][263]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.12.26-20.27.28:648][263]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.12.26-20.27.28:648][263]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.12.26-20.27.28:648][263]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.12.26-20.27.28:817][263]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.12.26-20.27.28:824][263]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.12.26-20.27.28:825][263]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.12.26-20.27.28:825][263]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.12.26-20.27.28:851][263]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.12.26-20.27.28:852][263]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.12.26-20.27.28:852][263]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.12.26-20.27.29:109][263]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.12.26-20.27.29:135][263]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.12.26-20.27.29:145][263]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.12.26-20.27.29:145][263]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.12.26-20.27.29:175][263]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.12.26-20.27.29:266][263]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.12.26-20.27.29:283][263]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.12.26-20.27.29:284][263]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.12.26-20.27.29:899][263]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.12.26-20.27.29:900][263]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.12.26-20.27.29:906][263]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.12.26-20.27.29:906][263]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.12.26-20.27.29:906][263]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.12.26-20.27.29:906][263]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.12.26-20.27.29:906][263]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.12.26-20.27.29:906][263]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.12.26-20.27.29:907][263]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.12.26-20.27.29:929][263]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.12.26-20.27.29:929][263]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.12.26-20.27.29:987][263]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.12.26-20.27.29:987][263]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.12.26-20.27.29:988][263]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.12.26-20.27.30:019][263]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.12.26-20.27.30:090][263]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.12.26-20.27.30:124][263]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.12.26-20.27.30:130][263]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.12.26-20.27.30:134][263]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.12.26-20.27.30:147][263]LogDerivedDataCache: Shutdown
+[2018.12.26-20.27.30:147][263]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.12.26-20.27.30:148][263]LogXGEController: Cleaning working directory: C:/Users/Cesar/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.26-20.27.30:148][263]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.12.26-20.27.30:148][263]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.12.26-20.27.30:168][263]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.12.26-20.27.30:177][263]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.12.26-20.27.30:210][263]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.12.26-20.27.30:216][263]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.12.26-20.27.30:335][263]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.12.26-20.27.30:335][263]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.12.26-20.27.30:335][263]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.12.26-20.27.30:530][263]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.12.26-20.27.30:717][263]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.12.26-20.27.30:717][263]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.12.26-20.27.30:717][263]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.12.26-20.27.30:717][263]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.12.26-20.27.30:718][263]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.12.26-20.27.30:718][263]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.12.26-20.27.30:718][263]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.12.26-20.27.30:718][263]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.12.26-20.27.30:718][263]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.12.26-20.27.30:718][263]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.12.26-20.27.30:718][263]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.12.26-20.27.30:719][263]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.12.26-20.27.30:719][263]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.12.26-20.27.30:719][263]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.12.26-20.27.30:719][263]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.12.26-20.27.30:719][263]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.12.26-20.27.30:719][263]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.12.26-20.27.30:720][263]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.12.26-20.27.30:720][263]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.12.26-20.27.30:720][263]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.12.26-20.27.30:720][263]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.12.26-20.27.30:720][263]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.12.26-20.27.30:720][263]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.12.26-20.27.30:721][263]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.12.26-20.27.30:721][263]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.12.26-20.27.30:721][263]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.12.26-20.27.30:721][263]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.12.26-20.27.30:721][263]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.12.26-20.27.30:721][263]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.12.26-20.27.30:722][263]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.12.26-20.27.30:722][263]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.12.26-20.27.30:722][263]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.12.26-20.27.30:722][263]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.12.26-20.27.30:722][263]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.12.26-20.27.30:722][263]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.12.26-20.27.30:722][263]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.12.26-20.27.30:723][263]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.12.26-20.27.30:773][263]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.12.26-20.27.30:773][263]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.12.26-20.27.30:773][263]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.12.26-20.27.30:773][263]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.12.26-20.27.30:773][263]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.12.26-20.27.30:886][263]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.12.26-20.27.30:940][263]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.12.26-20.27.30:954][263]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.26-20.27.30:954][263]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B08E1DD13-43AC-2491-933D-35A4672C6F82%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=d892bfd5475dd6e8e28e998e0a8cec46%7Cc291850c7d8f4f019b5e975fffaeed98%7C196d107b-2e5a-4dff-8517-aca7747e130d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.26-20.27.30:985][263]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.12.26-20.27.31:022][263]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.26-20.27.31:194][263]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.26-20.27.31:215][263]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.26-20.27.31:244][263]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.26-20.27.31:561][263]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.26-20.27.31:562][263]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.26-20.27.31:562][263]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.26-20.27.31:708][263]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.26-20.27.31:728][263]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.26-20.27.31:728][263]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.26-20.27.31:746][263]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.26-20.27.31:746][263]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.26-20.27.31:746][263]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.26-20.27.31:747][263]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.26-20.27.31:756][263]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.26-20.27.31:756][263]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.26-20.27.31:764][263]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.26-20.27.31:774][263]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.26-20.27.31:793][263]LogExit: Exiting.
+[2018.12.26-20.27.31:890][263]Log file closed, 12/26/18 17:27:31

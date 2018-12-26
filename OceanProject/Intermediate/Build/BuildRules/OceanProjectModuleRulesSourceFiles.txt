@@ -1,0 +1,5 @@
+C:\Users\Ulises\Desktop\OceanProject\Source\OceanProject\OceanProject.Build.cs
+C:\Users\Ulises\Desktop\OceanProject\Plugins\OceanPlugin\Source\OceanPlugin\OceanPlugin.Build.cs
+C:\Users\Ulises\Desktop\OceanProject\Plugins\ROSIntegration\Source\ROSIntegration\ROSIntegration.Build.cs
+C:\Users\Ulises\Desktop\OceanProject\Source\OceanProject.Target.cs
+C:\Users\Ulises\Desktop\OceanProject\Source\OceanProjectEditor.Target.cs

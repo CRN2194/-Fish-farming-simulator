@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-OceanProject-6049.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Ulises\Desktop\OceanProject\Intermediate\Build\Win64\UE4Editor\Development\OceanProject\OceanProject.cpp.obj"
+"C:\Users\Ulises\Desktop\OceanProject\Intermediate\Build\Win64\UE4Editor\Development\OceanProject\FishSpawn.cpp.obj"
+"C:\Users\Ulises\Desktop\OceanProject\Intermediate\Build\Win64\UE4Editor\Development\OceanProject\FishSpawn.gen.cpp.obj"
+"C:\Users\Ulises\Desktop\OceanProject\Intermediate\Build\Win64\UE4Editor\Development\OceanProject\OceanProject.init.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\OceanProject\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Ulises\Desktop\OceanProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-OceanProject-6049.lib"

@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\OceanProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5BE68FD4-D99C-44D7-8B07-CA171071D92C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\OceanProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\OceanProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{91EDE892-60B8-4A80-955D-8D3D8C4C58AC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{4D246D70-7817-44A6-B616-3EF5E209EA79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OceanPlugin">
+      <UniqueIdentifier>{BD23746B-7C47-4E2B-A059-0F59B70752B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OceanPlugin\Source">
+      <UniqueIdentifier>{BBA50922-6C6F-4BAC-87C4-E513AAF4126B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin">
+      <UniqueIdentifier>{6EA5148F-FABE-4971-8A77-E26184087A01}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\OceanPlugin.Build.cs">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Classes">
+      <UniqueIdentifier>{953EE8AE-849C-4CF5-815B-765CA1EEE758}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyancyComponent.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyancyForceComponent.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantDestructible.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantDestructibleComponent.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\CustomVehicleController.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\InfiniteSystemComponent.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\OceanManager.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\OceanPlugin.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\OceanPluginPrivatePCH.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Classes\AdvancedBuoyancyComponent">
+      <UniqueIdentifier>{62B9A457-518E-4471-95D9-8C3DFC4CF13B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\AdvancedBuoyancyComponent\AdvancedBuoyancyComponent.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\AdvancedBuoyancyComponent</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh">
+      <UniqueIdentifier>{EA259D16-EEA7-4EE0-8424-3E17F6363542}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh\BuoyantMeshComponent.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh\BuoyantMeshSubtriangle.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh\BuoyantMeshTriangle.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh\BuoyantMeshVertex.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh\WaterHeightmapComponent.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\BuoyantMesh</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Classes\Fish">
+      <UniqueIdentifier>{21003146-9093-4165-B6F9-455021AB0B55}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\Fish\FishManager.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\Fish\FishState.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\Fish\FlockFish.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\Fish</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Classes\Sky">
+      <UniqueIdentifier>{F40FC652-42B1-4A73-B8A6-1272BDAF39FC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\Sky\SkyManager.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\Sky\TimeDate.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Classes\Sky\TimeManager.h">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Classes\Sky</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Private">
+      <UniqueIdentifier>{6DF5DEF9-83B1-47E9-BAEE-80C75B17DDF9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyancyComponent.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyancyForceComponent.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantDestructible.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantDestructibleComponent.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\CustomVehicleController.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\InfiniteSystemComponent.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\OceanManager.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\OceanPlugin.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Private\AdvancedBuoyancyComponent">
+      <UniqueIdentifier>{A0680284-F409-4E74-B493-BEA25D03CBFB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\AdvancedBuoyancyComponent\AdvancedBuoyancyComponent.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\AdvancedBuoyancyComponent</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh">
+      <UniqueIdentifier>{35810C01-66F5-49A2-A2E6-DD37618D28DC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh\BuoyantMeshComponent.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh\BuoyantMeshSubtriangle.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh\BuoyantMeshTriangle.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh\BuoyantMeshVertex.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh\WaterHeightmapComponent.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\BuoyantMesh</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Private\Fish">
+      <UniqueIdentifier>{5F9DCEDD-29FC-4F95-81EB-92A11D4900DA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\Fish\FishManager.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\Fish\FishState.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\Fish\FlockFish.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\Fish</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\OceanPlugin\Source\OceanPlugin\Private\Sky">
+      <UniqueIdentifier>{484C8152-B5F6-46D7-866D-5923561AAB4B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\Sky\SkyManager.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\Sky\TimeDate.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\OceanPlugin\Source\OceanPlugin\Private\Sky\TimeManager.cpp">
+      <Filter>Plugins\OceanPlugin\Source\OceanPlugin\Private\Sky</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\OceanPlugin\OceanPlugin.uplugin">
+      <Filter>Plugins\OceanPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\OceanPlugin\Resources">
+      <UniqueIdentifier>{0F62C3CB-97A7-4761-99DC-D65159128751}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OceanPlugin\Resources\Icon128.png">
+      <Filter>Plugins\OceanPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\ROSIntegration">
+      <UniqueIdentifier>{2BC3818A-C75E-4252-88D7-D47E3A14FA83}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ROSIntegration\ROSIntegration.uplugin">
+      <Filter>Plugins\ROSIntegration</Filter>
+    </None>
+    <Filter Include="Plugins\ROSIntegration\Source">
+      <UniqueIdentifier>{029F3088-CCA7-491E-B6BE-FC06F8843223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration">
+      <UniqueIdentifier>{061B4D79-E72E-42AB-B868-9109728A71B9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\ROSIntegration.Build.cs">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration</Filter>
+    </None>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Classes">
+      <UniqueIdentifier>{C978EE91-3739-44E0-B1B7-B156BE896903}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Classes\LookAtScanComponent.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Classes\ROSIntegrationCore.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Classes\ROSIntegrationGameInstance.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Classes\SpawnableObject.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Classes\SpawnManager.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Classes\SpawnObjectMessage.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Classes\TFBroadcastComponent.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Classes\RI">
+      <UniqueIdentifier>{9DED88E9-AAA1-42D4-B772-D018C90F3BF4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Classes\RI\Service.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Classes\RI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Classes\RI\Topic.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Classes\RI</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private">
+      <UniqueIdentifier>{E7007633-208B-46B6-AC15-2050C33130AF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\LookAtScanComponent.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\ROSIntegration.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\ROSIntegrationCore.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\ROSIntegrationGameInstance.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\RosPublisher.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\ROSTime.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Service.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\SpawnableObject.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\SpawnManager.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\SpawnObjectMessage.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\TFBroadcastComponent.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Topic.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion">
+      <UniqueIdentifier>{DC481297-812B-4344-B14A-C324C9CA32E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages">
+      <UniqueIdentifier>{26381EF3-2772-448D-AB08-81B1147BD02D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\BaseMessageConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\BaseMessageConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs">
+      <UniqueIdentifier>{3D0689C7-F579-4FF9-9369-1BA3DEFE97E6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs\ActionlibMsgsGoalIDConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs\ActionlibMsgsGoalIDConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs\ActionlibMsgsGoalStatusArrayConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs\ActionlibMsgsGoalStatusArrayConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs\ActionlibMsgsGoalStatusConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs\ActionlibMsgsGoalStatusConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\actionlib_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs">
+      <UniqueIdentifier>{52A61D4C-6ED3-4A89-A2F9-57BA13A18A1F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsPointConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsPointConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsPoseConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsPoseConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsPoseStampedConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsPoseStampedConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsPoseWithCovarianceConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsPoseWithCovarianceConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsQuaternionConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsQuaternionConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsTransformConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsTransformConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsTransformStampedConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsTransformStampedConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsTwistConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsTwistConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsTwistWithCovarianceConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsTwistWithCovarianceConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsVector3Converter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs\GeometryMsgsVector3Converter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\geometry_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\grid_map_msgs">
+      <UniqueIdentifier>{88FBD30C-6FAD-4A75-96D2-76FEE8F582E8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\grid_map_msgs\GridMapMsgsGridMapConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\grid_map_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\grid_map_msgs\GridMapMsgsGridMapConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\grid_map_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\grid_map_msgs\GridMapMsgsGridMapInfoConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\grid_map_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\grid_map_msgs\GridMapMsgsGridMapInfoConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\grid_map_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\nav_msgs">
+      <UniqueIdentifier>{531996C7-5600-4B62-AC8D-4FB648D170C1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\nav_msgs\NavMsgsOdometryConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\nav_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\nav_msgs\NavMsgsOdometryConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\nav_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\rosgraph_msgs">
+      <UniqueIdentifier>{A23B8521-B699-4B75-9DE0-1C598BEB2ECD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\rosgraph_msgs\ROSGraphMsgsClockConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\rosgraph_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\rosgraph_msgs\ROSGraphMsgsClockConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\rosgraph_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs">
+      <UniqueIdentifier>{C78288AE-EB47-4DBF-B38F-B7822CBB1B5A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsCameraInfoConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsCameraInfoConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsImageConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsImageConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsLaserScanConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsLaserScanConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsPointCloud2Converter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsPointCloud2Converter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsRegionOfInterestConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs\SensorMsgsRegionOfInterestConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\sensor_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs">
+      <UniqueIdentifier>{05A384B9-4211-4F64-9077-97E1C81FE228}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsFloat32Converter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsFloat32Converter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsFloat32MultiArrayConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsFloat32MultiArrayConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsHeaderConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsHeaderConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsMultiArrayDimensionConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsMultiArrayDimensionConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsMultiArrayLayoutConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsMultiArrayLayoutConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsStringConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs\StdMsgsStringConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\std_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\tf2_msgs">
+      <UniqueIdentifier>{F1CDA83F-BE7B-40DB-B3C2-B1DD958F6B39}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\tf2_msgs\Tf2MsgsTFMessageConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\tf2_msgs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\tf2_msgs\Tf2MsgsTFMessageConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Messages\tf2_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services">
+      <UniqueIdentifier>{76A34868-5950-4505-A1C6-47548B4C8CF7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\BaseRequestConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\BaseRequestConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\BaseResponseConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\BaseResponseConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\rospy_tutorials">
+      <UniqueIdentifier>{6FC0AE27-2041-4B0B-B61C-A12BD5A4736C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\rospy_tutorials\RospyTutorialsAddTwoIntsRequestConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\rospy_tutorials</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\rospy_tutorials\RospyTutorialsAddTwoIntsRequestConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\rospy_tutorials</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\rospy_tutorials\RospyTutorialsAddTwoIntsResponseConverter.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\rospy_tutorials</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\rospy_tutorials\RospyTutorialsAddTwoIntsResponseConverter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\Conversion\Services\rospy_tutorials</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp">
+      <UniqueIdentifier>{CE40D0F4-053B-4598-9A9B-686F7BE9F8CC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\helper.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\itransport_layer.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_bridge.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_bridge.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_message_factory.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_service.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_service.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_tf_broadcaster.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_tf_broadcaster.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_time.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_time.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_topic.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\ros_topic.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\spinlock.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\TCPConnection.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\TCPConnection.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\types.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages">
+      <UniqueIdentifier>{08EBAABA-FE40-4CE8-B00D-633EC9649097}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_advertise_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_advertise_service_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_call_service_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_publish_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_service_response_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_subscribe_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_unadvertise_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_unadvertise_service_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages\rosbridge_unsubscribe_msg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\messages</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson">
+      <UniqueIdentifier>{27AC97CE-931C-4A6E-AE1C-B6A38A88794B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\allocators.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\document.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\encodedstream.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\encodings.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\filereadstream.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\filewritestream.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\fwd.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\istreamwrapper.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\memorybuffer.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\memorystream.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\ostreamwrapper.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\pointer.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\prettywriter.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\rapidjson.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\reader.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\schema.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\stream.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\stringbuffer.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\writer.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\error">
+      <UniqueIdentifier>{59D10FFB-EB0F-47FB-AC65-0238133E6847}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\error\en.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\error\error.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\error</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal">
+      <UniqueIdentifier>{7470FBF4-9A7A-49AC-9E38-B8C366F37BC7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\biginteger.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\diyfp.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\dtoa.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\ieee754.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\itoa.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\meta.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\pow10.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\regex.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\stack.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\strfunc.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\strtod.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal\swap.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\internal</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\msinttypes">
+      <UniqueIdentifier>{777F8B26-235D-4493-A6A9-3B14657D84E0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\msinttypes\inttypes.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\msinttypes\stdint.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private\rosbridge2cpp\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public">
+      <UniqueIdentifier>{84AC89F9-4F37-463A-A640-CCAB5EC128EB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\ROSBaseMsg.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\ROSBaseServiceRequest.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\ROSBaseServiceResponse.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\ROSIntegration.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\RosPublisher.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\ROSTime.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public\actionlib_msgs">
+      <UniqueIdentifier>{177FEE5C-3E3D-46B1-9094-0ACD7E97CBE1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\actionlib_msgs\GoalID.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\actionlib_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\actionlib_msgs\GoalStatus.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\actionlib_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\actionlib_msgs\GoalStatusArray.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\actionlib_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs">
+      <UniqueIdentifier>{85ABF327-E22B-4396-BD46-2E9F846114F4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\Point.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\Pose.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\PoseStamped.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\PoseWithCovariance.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\Quaternion.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\Transform.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\TransformStamped.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\Twist.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\TwistWithCovariance.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs\Vector3.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\geometry_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public\grid_map_msgs">
+      <UniqueIdentifier>{DA7A4E71-1AFA-4D91-9D04-C70B8ED88240}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\grid_map_msgs\GridMap.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\grid_map_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\grid_map_msgs\GridMapInfo.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\grid_map_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public\nav_msgs">
+      <UniqueIdentifier>{E511D68C-2B0B-4BC6-9B9C-C3A40B75647B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\nav_msgs\Odometry.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\nav_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public\rosgraph_msgs">
+      <UniqueIdentifier>{95FE858F-D67A-4737-89F0-5770256CDBAC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\rosgraph_msgs\Clock.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\rosgraph_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public\rospy_tutorials">
+      <UniqueIdentifier>{A2EE7833-55CF-42ED-96F8-5919B92B66B9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\rospy_tutorials\AddTwoIntsRequest.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\rospy_tutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\rospy_tutorials\AddTwoIntsResponse.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\rospy_tutorials</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs">
+      <UniqueIdentifier>{D32518C4-5C04-4B27-818E-E118A332A5F0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs\CameraInfo.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs\Image.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs\LaserScan.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs\PointCloud2.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs\RegionOfInterest.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\sensor_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs">
+      <UniqueIdentifier>{BC4FFA9C-8EAC-41F3-9F5C-5E512D50F807}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs\Float32.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs\Float32MultiArray.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs\Header.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs\MultiArrayDimension.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs\MultiArrayLayout.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs\String.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\std_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ROSIntegration\Source\ROSIntegration\Public\tf2_msgs">
+      <UniqueIdentifier>{40FDEBD6-52EC-44D8-8219-5C2599885D52}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\tf2_msgs\TFMessage.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public\tf2_msgs</Filter>
+    </ClInclude>
+    <Filter Include="Source\OceanProject">
+      <UniqueIdentifier>{E9CCDA58-5C51-487F-9850-10DB24F1B1FD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\OceanProject\OceanProject.Build.cs">
+      <Filter>Source\OceanProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\OceanProject\OceanProject.cpp">
+      <Filter>Source\OceanProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\OceanProject\OceanProject.h">
+      <Filter>Source\OceanProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\OceanProject\Private">
+      <UniqueIdentifier>{252D2DAB-AE5A-42CC-86B8-72CDF37A0DE4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\OceanProject\Private\FishSpawn.cpp">
+      <Filter>Source\OceanProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\OceanProject\Public">
+      <UniqueIdentifier>{5751D67C-DB0F-46D0-A09A-2A139DC9E91F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\OceanProject\Public\FishSpawn.h">
+      <Filter>Source\OceanProject\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Public\RosSubscriber.h">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Plugins\ROSIntegration\Source\ROSIntegration\Private\RosSubscriber.cpp">
+      <Filter>Plugins\ROSIntegration\Source\ROSIntegration\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
