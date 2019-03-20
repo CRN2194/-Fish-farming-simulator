@@ -1,6 +1,6 @@
 # -Fish-farming-simulator
 
-Proyecto de tesis 2018: Diseño y desarrollo de un simulador para tareas en piscicultura
+Proyecto de titulo 2018: Diseño y desarrollo de un simulador para tareas en piscicultura
 
 Instalación:<br><br>
 Descargar el proyecto, posteriormente ir a content y descomprimir el Zip que está en su interior.
